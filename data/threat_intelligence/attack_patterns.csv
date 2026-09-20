@@ -1,0 +1,9 @@
+pattern_id,name,description
+P01,Periodic C2 beaconing,regular periodic https beaconing to a fixed external ip at consistent intervals low and slow c2 channel
+P02,DNS tunnelling,high entropy long subdomain queries to a single base domain txt heavy dns exfiltration covert channel
+P03,Off-hours exfiltration,large outbound data transfers during off hours to a fixed external host asymmetric byte ratio data theft
+P04,Lateral movement via SMB,authentication fanout to multiple internal hosts followed by smb traffic lateral movement credential pivot
+P05,Credential brute force,many failed authentication attempts against multiple accounts in a short window password guessing
+P06,Data staging,multiple large reads from internal systems prior to exfiltration internal reconnaissance
+P07,RDP pivot,remote desktop protocol connections to multiple internal hosts from a single source credential reuse
+P08,DNS DGA activity,high volume nxdomain responses from algorithmically generated domains domain generation algorithm

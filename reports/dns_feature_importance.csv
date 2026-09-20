@@ -1,0 +1,9 @@
+feature,importance
+sub_entropy,0.510735815986701
+sub_len,0.3023830226318525
+is_long_query,0.07355431867653113
+sub_digit_ratio,0.04601268769282529
+query_type_aaaa,0.03911372933768243
+query_type_txt,0.016140451306791887
+is_nxdomain,0.012059974367615791
+sub_hyphen_count,0.0

@@ -1,0 +1,22 @@
+# SAS821S Capstone — Python dependencies
+# Versions reflect the environment used to build and test this project.
+
+# Core data stack
+pandas>=2.0
+numpy>=1.24
+
+# Machine learning
+scikit-learn>=1.3
+joblib>=1.3
+
+# Visualisation
+matplotlib>=3.7
+
+# Dashboard
+streamlit>=1.30
+
+# Model persistence
+pyarrow>=14.0
+
+# Testing
+pytest>=7.4

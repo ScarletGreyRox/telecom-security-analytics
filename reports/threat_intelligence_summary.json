@@ -1,0 +1,11 @@
+{
+  "n_incidents": 200,
+  "incidents_with_ioc_match": 55,
+  "ioc_match_rate": 0.275,
+  "threat_actor_distribution": {
+    "APT-SIM-01": 42,
+    "APT-SIM-02": 13
+  },
+  "max_final_score": 117.4,
+  "mean_final_score": 78.81
+}

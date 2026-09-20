@@ -1,0 +1,11 @@
+ioc_type,value,threat_actor,confidence,description
+ip,172.16.99.10,APT-SIM-01,0.95,C2 server for periodic beacon traffic
+ip,172.16.99.20,APT-SIM-01,0.92,Exfiltration destination host
+ip,172.16.99.30,APT-SIM-01,0.88,Backup C2 infrastructure
+ip,172.16.99.40,APT-SIM-02,0.85,APT-SIM-02 relay node
+ip,172.16.99.50,APT-SIM-02,0.82,APT-SIM-02 relay node
+domain,evil-c2.example,APT-SIM-01,0.9,Primary C2 domain used for beaconing
+domain,dns-tunnel.xyz,APT-SIM-02,0.88,DNS tunnelling infrastructure
+domain,badactor-update.net,APT-SIM-02,0.85,Secondary C2 domain
+domain,malware-cdn.top,APT-SIM-03,0.8,Malware distribution CDN
+domain,apt-relay.cc,APT-SIM-03,0.78,APT relay domain

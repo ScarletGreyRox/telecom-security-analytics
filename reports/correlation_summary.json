@@ -1,0 +1,13 @@
+{
+  "n_windows_scored": 18376,
+  "n_high_confidence": 3094,
+  "n_multi_detector": 1132,
+  "max_composite_score": 104.6,
+  "mean_composite_score": 12.429955376578144,
+  "detector_count_distribution": {
+    "0_detectors": 7164,
+    "1_detector": 10080,
+    "2_detectors": 1096,
+    "3_detectors": 36
+  }
+}

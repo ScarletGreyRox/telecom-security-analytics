@@ -1,0 +1,7054 @@
+[
+  {
+    "incident_id": "LM-user007-20260814T1430",
+    "user": "user007",
+    "start": "2026-08-14T14:30:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.236",
+      "10.0.1.50",
+      "10.0.2.25"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 6,
+    "max_fanout": 6,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.71",
+      "10.0.2.218",
+      "10.0.2.25",
+      "10.0.3.130",
+      "172.16.171.176"
+    ],
+    "smb_target_count": 5,
+    "off_hours_events": 0,
+    "risk_score": 79.0
+  },
+  {
+    "incident_id": "LM-user006-20260810T1515",
+    "user": "user006",
+    "start": "2026-08-10T15:15:00",
+    "end": "2026-08-10T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.109",
+      "10.0.1.153",
+      "10.0.1.172",
+      "10.0.1.236",
+      "10.0.1.4",
+      "10.0.1.88",
+      "10.0.1.94",
+      "10.0.2.130",
+      "10.0.2.196",
+      "10.0.2.205",
+      "10.0.2.43",
+      "10.0.2.89",
+      "10.0.3.180",
+      "10.0.3.207",
+      "10.0.3.83"
+    ],
+    "duration_min": 105,
+    "windows_in_chain": 4,
+    "total_logins": 13,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.102.154",
+      "172.16.108.75",
+      "172.16.171.128",
+      "172.16.173.84"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 71.7
+  },
+  {
+    "incident_id": "LM-user007-20260810T1430",
+    "user": "user007",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.5",
+      "10.0.1.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.172",
+      "10.0.1.22",
+      "10.0.2.98",
+      "10.0.3.252"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 70.8
+  },
+  {
+    "incident_id": "LM-user007-20260811T1430",
+    "user": "user007",
+    "start": "2026-08-11T14:30:00",
+    "end": "2026-08-11T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.40",
+      "10.0.1.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.41",
+      "10.0.2.161",
+      "10.0.3.153",
+      "10.0.3.60"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 70.8
+  },
+  {
+    "incident_id": "LM-user007-20260813T1430",
+    "user": "user007",
+    "start": "2026-08-13T14:30:00",
+    "end": "2026-08-13T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.50",
+      "10.0.2.109"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.230",
+      "10.0.2.114",
+      "10.0.2.175",
+      "10.0.3.168"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 70.8
+  },
+  {
+    "incident_id": "LM-user007-20260812T1430",
+    "user": "user007",
+    "start": "2026-08-12T14:30:00",
+    "end": "2026-08-12T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.113",
+      "10.0.2.32",
+      "10.0.3.28",
+      "10.0.3.49"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 62.7
+  },
+  {
+    "incident_id": "LM-user007-20260815T1430",
+    "user": "user007",
+    "start": "2026-08-15T14:30:00",
+    "end": "2026-08-15T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.197",
+      "10.0.1.213",
+      "10.0.2.25",
+      "10.0.3.117"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 62.7
+  },
+  {
+    "incident_id": "LM-user007-20260816T1430",
+    "user": "user007",
+    "start": "2026-08-16T14:30:00",
+    "end": "2026-08-16T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "10.0.1.101",
+      "10.0.1.59",
+      "10.0.2.162",
+      "10.0.3.62"
+    ],
+    "smb_target_count": 4,
+    "off_hours_events": 0,
+    "risk_score": 62.7
+  },
+  {
+    "incident_id": "LM-user025-20260814T1500",
+    "user": "user025",
+    "start": "2026-08-14T15:00:00",
+    "end": "2026-08-14T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.144",
+      "10.0.1.190",
+      "10.0.2.129",
+      "10.0.2.135",
+      "10.0.3.127",
+      "10.0.3.239"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.10.212",
+      "172.16.205.180",
+      "172.16.247.63"
+    ],
+    "smb_target_count": 3,
+    "off_hours_events": 0,
+    "risk_score": 51.5
+  },
+  {
+    "incident_id": "LM-user052-20260810T1615",
+    "user": "user052",
+    "start": "2026-08-10T16:15:00",
+    "end": "2026-08-10T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.73",
+      "10.0.1.98",
+      "10.0.2.205",
+      "10.0.3.189",
+      "10.0.3.219",
+      "10.0.3.220"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 6,
+    "max_fanout": 6,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 49.0
+  },
+  {
+    "incident_id": "LM-user014-20260812T1400",
+    "user": "user014",
+    "start": "2026-08-12T14:00:00",
+    "end": "2026-08-12T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.103",
+      "10.0.1.231",
+      "10.0.1.248",
+      "10.0.3.164",
+      "10.0.3.225"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.168.8"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 48.3
+  },
+  {
+    "incident_id": "LM-user017-20260811T1545",
+    "user": "user017",
+    "start": "2026-08-11T15:45:00",
+    "end": "2026-08-11T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.190",
+      "10.0.3.102",
+      "10.0.3.152",
+      "10.0.3.27"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.20.119",
+      "172.16.244.93"
+    ],
+    "smb_target_count": 2,
+    "off_hours_events": 0,
+    "risk_score": 47.7
+  },
+  {
+    "incident_id": "LM-user003-20260811T1630",
+    "user": "user003",
+    "start": "2026-08-11T16:30:00",
+    "end": "2026-08-11T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.209",
+      "10.0.1.66",
+      "10.0.2.11",
+      "10.0.2.113",
+      "10.0.2.191",
+      "10.0.2.42",
+      "10.0.3.198"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.93.220"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 44.7
+  },
+  {
+    "incident_id": "LM-user008-20260811T1345",
+    "user": "user008",
+    "start": "2026-08-11T13:45:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.129",
+      "10.0.1.198",
+      "10.0.1.215",
+      "10.0.2.171",
+      "10.0.2.27",
+      "10.0.3.165",
+      "10.0.3.98"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.39.138"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 44.7
+  },
+  {
+    "incident_id": "LM-user051-20260814T1415",
+    "user": "user051",
+    "start": "2026-08-14T14:15:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.165",
+      "10.0.1.171",
+      "10.0.1.228",
+      "10.0.2.119",
+      "10.0.2.241",
+      "10.0.2.249",
+      "10.0.3.191"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.20.138"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 44.7
+  },
+  {
+    "incident_id": "LM-user037-20260811T1530",
+    "user": "user037",
+    "start": "2026-08-11T15:30:00",
+    "end": "2026-08-11T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.120",
+      "10.0.1.164",
+      "10.0.1.234",
+      "10.0.2.131",
+      "10.0.3.183",
+      "10.0.3.192"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.205.140",
+      "172.16.235.192"
+    ],
+    "smb_target_count": 2,
+    "off_hours_events": 0,
+    "risk_score": 44.0
+  },
+  {
+    "incident_id": "LM-user005-20260811T1500",
+    "user": "user005",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.168",
+      "10.0.1.174",
+      "10.0.1.193",
+      "10.0.2.50",
+      "10.0.3.206"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user008-20260814T0830",
+    "user": "user008",
+    "start": "2026-08-14T08:30:00",
+    "end": "2026-08-14T08:45:00",
+    "pivot_hosts": [
+      "10.0.1.230",
+      "10.0.2.167",
+      "10.0.3.191",
+      "10.0.3.224",
+      "10.0.3.237"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user039-20260814T1230",
+    "user": "user039",
+    "start": "2026-08-14T12:30:00",
+    "end": "2026-08-14T12:45:00",
+    "pivot_hosts": [
+      "10.0.1.132",
+      "10.0.1.207",
+      "10.0.1.42",
+      "10.0.3.107",
+      "10.0.3.79"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user042-20260810T1400",
+    "user": "user042",
+    "start": "2026-08-10T14:00:00",
+    "end": "2026-08-10T14:15:00",
+    "pivot_hosts": [
+      "10.0.2.191",
+      "10.0.3.117",
+      "10.0.3.199",
+      "10.0.3.211",
+      "10.0.3.3"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user047-20260810T1430",
+    "user": "user047",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.136",
+      "10.0.1.7",
+      "10.0.2.34",
+      "10.0.3.13",
+      "10.0.3.53"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user059-20260810T1445",
+    "user": "user059",
+    "start": "2026-08-10T14:45:00",
+    "end": "2026-08-10T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.18",
+      "10.0.2.106",
+      "10.0.2.116",
+      "10.0.2.135",
+      "10.0.3.96"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 5,
+    "max_fanout": 5,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 40.8
+  },
+  {
+    "incident_id": "LM-user033-20260811T1400",
+    "user": "user033",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.212",
+      "10.0.2.145",
+      "10.0.2.185",
+      "10.0.3.116"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.205.128"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 40.2
+  },
+  {
+    "incident_id": "LM-user039-20260814T1645",
+    "user": "user039",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.144",
+      "10.0.2.155",
+      "10.0.2.223",
+      "10.0.2.248"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.84.71"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 40.2
+  },
+  {
+    "incident_id": "LM-user046-20260811T1615",
+    "user": "user046",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.143",
+      "10.0.1.152",
+      "10.0.1.39",
+      "10.0.3.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.119.151"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 40.2
+  },
+  {
+    "incident_id": "LM-user049-20260813T1630",
+    "user": "user049",
+    "start": "2026-08-13T16:30:00",
+    "end": "2026-08-13T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.238",
+      "10.0.2.85",
+      "10.0.3.221",
+      "10.0.3.31"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.75.21"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 40.2
+  },
+  {
+    "incident_id": "LM-user003-20260811T0400",
+    "user": "user003",
+    "start": "2026-08-11T04:00:00",
+    "end": "2026-08-11T04:15:00",
+    "pivot_hosts": [
+      "10.0.1.105",
+      "10.0.2.60",
+      "10.0.3.103"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 3,
+    "risk_score": 39.5
+  },
+  {
+    "incident_id": "LM-user008-20260816T0645",
+    "user": "user008",
+    "start": "2026-08-16T06:45:00",
+    "end": "2026-08-16T07:00:00",
+    "pivot_hosts": [
+      "10.0.2.216",
+      "10.0.2.97",
+      "10.0.3.216"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 3,
+    "risk_score": 39.5
+  },
+  {
+    "incident_id": "LM-user027-20260810T0100",
+    "user": "user027",
+    "start": "2026-08-10T01:00:00",
+    "end": "2026-08-10T01:15:00",
+    "pivot_hosts": [
+      "10.0.2.190",
+      "10.0.2.240",
+      "10.0.2.65"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 3,
+    "risk_score": 39.5
+  },
+  {
+    "incident_id": "LM-user029-20260816T0315",
+    "user": "user029",
+    "start": "2026-08-16T03:15:00",
+    "end": "2026-08-16T03:30:00",
+    "pivot_hosts": [
+      "10.0.1.185",
+      "10.0.1.232",
+      "10.0.2.250"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 3,
+    "risk_score": 39.5
+  },
+  {
+    "incident_id": "LM-user040-20260812T1515",
+    "user": "user040",
+    "start": "2026-08-12T15:15:00",
+    "end": "2026-08-12T16:00:00",
+    "pivot_hosts": [
+      "10.0.2.181",
+      "10.0.2.225",
+      "10.0.2.245",
+      "10.0.2.252",
+      "10.0.3.134",
+      "10.0.3.197",
+      "10.0.3.23",
+      "10.0.3.37"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 8,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 38.7
+  },
+  {
+    "incident_id": "LM-user026-20260814T1545",
+    "user": "user026",
+    "start": "2026-08-14T15:45:00",
+    "end": "2026-08-14T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.102",
+      "10.0.1.232",
+      "10.0.1.235",
+      "10.0.2.160",
+      "10.0.2.246",
+      "10.0.2.91",
+      "10.0.3.235",
+      "10.0.3.62"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 37.2
+  },
+  {
+    "incident_id": "LM-user041-20260812T1445",
+    "user": "user041",
+    "start": "2026-08-12T14:45:00",
+    "end": "2026-08-12T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.134",
+      "10.0.1.148",
+      "10.0.1.199",
+      "10.0.3.146",
+      "10.0.3.215",
+      "10.0.3.24",
+      "10.0.3.241",
+      "10.0.3.40",
+      "10.0.3.82"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 37.2
+  },
+  {
+    "incident_id": "LM-user048-20260814T1500",
+    "user": "user048",
+    "start": "2026-08-14T15:00:00",
+    "end": "2026-08-14T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.121",
+      "10.0.1.64",
+      "10.0.2.118",
+      "10.0.2.122",
+      "10.0.3.104",
+      "10.0.3.147",
+      "10.0.3.151"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 7,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 37.2
+  },
+  {
+    "incident_id": "LM-user006-20260812T0815",
+    "user": "user006",
+    "start": "2026-08-12T08:15:00",
+    "end": "2026-08-12T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.158",
+      "10.0.1.58",
+      "10.0.2.217",
+      "10.0.3.205",
+      "10.0.3.215",
+      "10.0.3.67"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.174.220"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 36.5
+  },
+  {
+    "incident_id": "LM-user008-20260813T1600",
+    "user": "user008",
+    "start": "2026-08-13T16:00:00",
+    "end": "2026-08-13T16:45:00",
+    "pivot_hosts": [
+      "10.0.2.183",
+      "10.0.2.201",
+      "10.0.2.247",
+      "10.0.3.137",
+      "10.0.3.141",
+      "10.0.3.168"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.45.241"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 36.5
+  },
+  {
+    "incident_id": "LM-user010-20260812T1600",
+    "user": "user010",
+    "start": "2026-08-12T16:00:00",
+    "end": "2026-08-12T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.208",
+      "10.0.2.13",
+      "10.0.2.205",
+      "10.0.2.224",
+      "10.0.2.254",
+      "10.0.3.133",
+      "10.0.3.187",
+      "10.0.3.73"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.43.48"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 36.5
+  },
+  {
+    "incident_id": "LM-user020-20260810T1400",
+    "user": "user020",
+    "start": "2026-08-10T14:00:00",
+    "end": "2026-08-10T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.196",
+      "10.0.3.130",
+      "10.0.3.225",
+      "10.0.3.242",
+      "10.0.3.5",
+      "10.0.3.64"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.38.76"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 36.5
+  },
+  {
+    "incident_id": "LM-user007-20260814T1600",
+    "user": "user007",
+    "start": "2026-08-14T16:00:00",
+    "end": "2026-08-14T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.86",
+      "10.0.2.107",
+      "10.0.2.183",
+      "10.0.3.168"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user008-20260811T1515",
+    "user": "user008",
+    "start": "2026-08-11T15:15:00",
+    "end": "2026-08-11T15:30:00",
+    "pivot_hosts": [
+      "10.0.2.134",
+      "10.0.3.148",
+      "10.0.3.163",
+      "10.0.3.58"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user008-20260811T1600",
+    "user": "user008",
+    "start": "2026-08-11T16:00:00",
+    "end": "2026-08-11T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.213",
+      "10.0.2.107",
+      "10.0.2.253",
+      "10.0.3.197"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user010-20260814T1245",
+    "user": "user010",
+    "start": "2026-08-14T12:45:00",
+    "end": "2026-08-14T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.13",
+      "10.0.1.169",
+      "10.0.2.153",
+      "10.0.2.27"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user016-20260810T1415",
+    "user": "user016",
+    "start": "2026-08-10T14:15:00",
+    "end": "2026-08-10T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.35",
+      "10.0.2.29",
+      "10.0.2.41",
+      "10.0.3.149"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user020-20260810T1630",
+    "user": "user020",
+    "start": "2026-08-10T16:30:00",
+    "end": "2026-08-10T16:45:00",
+    "pivot_hosts": [
+      "10.0.2.126",
+      "10.0.2.202",
+      "10.0.2.55",
+      "10.0.3.134"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user021-20260814T1645",
+    "user": "user021",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.39",
+      "10.0.2.77",
+      "10.0.2.79",
+      "10.0.2.91"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user022-20260810T1500",
+    "user": "user022",
+    "start": "2026-08-10T15:00:00",
+    "end": "2026-08-10T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.137",
+      "10.0.2.23",
+      "10.0.2.90",
+      "10.0.3.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user025-20260811T1230",
+    "user": "user025",
+    "start": "2026-08-11T12:30:00",
+    "end": "2026-08-11T12:45:00",
+    "pivot_hosts": [
+      "10.0.1.104",
+      "10.0.1.162",
+      "10.0.3.249",
+      "10.0.3.64"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user031-20260813T1530",
+    "user": "user031",
+    "start": "2026-08-13T15:30:00",
+    "end": "2026-08-13T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.236",
+      "10.0.2.167",
+      "10.0.2.243",
+      "10.0.3.92"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user033-20260812T1130",
+    "user": "user033",
+    "start": "2026-08-12T11:30:00",
+    "end": "2026-08-12T11:45:00",
+    "pivot_hosts": [
+      "10.0.2.198",
+      "10.0.3.200",
+      "10.0.3.250",
+      "10.0.3.49"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user034-20260813T1045",
+    "user": "user034",
+    "start": "2026-08-13T10:45:00",
+    "end": "2026-08-13T11:00:00",
+    "pivot_hosts": [
+      "10.0.2.147",
+      "10.0.2.190",
+      "10.0.2.45",
+      "10.0.3.218"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user034-20260813T1245",
+    "user": "user034",
+    "start": "2026-08-13T12:45:00",
+    "end": "2026-08-13T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.137",
+      "10.0.1.220",
+      "10.0.2.85",
+      "10.0.3.213"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user035-20260813T1630",
+    "user": "user035",
+    "start": "2026-08-13T16:30:00",
+    "end": "2026-08-13T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.51",
+      "10.0.1.88",
+      "10.0.3.230",
+      "10.0.3.89"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user036-20260810T1315",
+    "user": "user036",
+    "start": "2026-08-10T13:15:00",
+    "end": "2026-08-10T13:30:00",
+    "pivot_hosts": [
+      "10.0.1.168",
+      "10.0.1.28",
+      "10.0.3.15",
+      "10.0.3.207"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user037-20260812T1500",
+    "user": "user037",
+    "start": "2026-08-12T15:00:00",
+    "end": "2026-08-12T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.139",
+      "10.0.2.191",
+      "10.0.2.42",
+      "10.0.2.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user042-20260813T1545",
+    "user": "user042",
+    "start": "2026-08-13T15:45:00",
+    "end": "2026-08-13T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.7",
+      "10.0.2.146",
+      "10.0.2.251",
+      "10.0.2.82"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user044-20260811T0800",
+    "user": "user044",
+    "start": "2026-08-11T08:00:00",
+    "end": "2026-08-11T08:15:00",
+    "pivot_hosts": [
+      "10.0.1.36",
+      "10.0.1.84",
+      "10.0.2.133",
+      "10.0.2.206"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user044-20260812T1530",
+    "user": "user044",
+    "start": "2026-08-12T15:30:00",
+    "end": "2026-08-12T15:45:00",
+    "pivot_hosts": [
+      "10.0.2.12",
+      "10.0.3.136",
+      "10.0.3.145",
+      "10.0.3.99"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user046-20260810T1445",
+    "user": "user046",
+    "start": "2026-08-10T14:45:00",
+    "end": "2026-08-10T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.21",
+      "10.0.2.72",
+      "10.0.3.61",
+      "10.0.3.92"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user046-20260811T1215",
+    "user": "user046",
+    "start": "2026-08-11T12:15:00",
+    "end": "2026-08-11T12:30:00",
+    "pivot_hosts": [
+      "10.0.1.111",
+      "10.0.1.137",
+      "10.0.3.125",
+      "10.0.3.242"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user046-20260814T1445",
+    "user": "user046",
+    "start": "2026-08-14T14:45:00",
+    "end": "2026-08-14T15:00:00",
+    "pivot_hosts": [
+      "10.0.2.95",
+      "10.0.3.108",
+      "10.0.3.61",
+      "10.0.3.67"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user047-20260812T0945",
+    "user": "user047",
+    "start": "2026-08-12T09:45:00",
+    "end": "2026-08-12T10:00:00",
+    "pivot_hosts": [
+      "10.0.1.158",
+      "10.0.1.50",
+      "10.0.2.42",
+      "10.0.3.14"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user054-20260814T1530",
+    "user": "user054",
+    "start": "2026-08-14T15:30:00",
+    "end": "2026-08-14T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.215",
+      "10.0.2.249",
+      "10.0.3.154",
+      "10.0.3.213"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user055-20260812T1630",
+    "user": "user055",
+    "start": "2026-08-12T16:30:00",
+    "end": "2026-08-12T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.22",
+      "10.0.3.150",
+      "10.0.3.68",
+      "10.0.3.69"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user056-20260814T1200",
+    "user": "user056",
+    "start": "2026-08-14T12:00:00",
+    "end": "2026-08-14T12:15:00",
+    "pivot_hosts": [
+      "10.0.1.171",
+      "10.0.1.201",
+      "10.0.2.205",
+      "10.0.2.251"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user057-20260810T0915",
+    "user": "user057",
+    "start": "2026-08-10T09:15:00",
+    "end": "2026-08-10T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.211",
+      "10.0.1.93",
+      "10.0.2.118",
+      "10.0.2.13"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user058-20260812T1600",
+    "user": "user058",
+    "start": "2026-08-12T16:00:00",
+    "end": "2026-08-12T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.132",
+      "10.0.1.59",
+      "10.0.3.110",
+      "10.0.3.75"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 4,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 32.7
+  },
+  {
+    "incident_id": "LM-user001-20260813T1300",
+    "user": "user001",
+    "start": "2026-08-13T13:00:00",
+    "end": "2026-08-13T13:15:00",
+    "pivot_hosts": [
+      "10.0.2.140",
+      "10.0.2.160",
+      "10.0.2.251"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.244.255"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user002-20260812T1215",
+    "user": "user002",
+    "start": "2026-08-12T12:15:00",
+    "end": "2026-08-12T12:30:00",
+    "pivot_hosts": [
+      "10.0.2.23",
+      "10.0.3.101",
+      "10.0.3.175"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.94.39"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user003-20260810T1445",
+    "user": "user003",
+    "start": "2026-08-10T14:45:00",
+    "end": "2026-08-10T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.90",
+      "10.0.3.153",
+      "10.0.3.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.53.229"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user004-20260813T1615",
+    "user": "user004",
+    "start": "2026-08-13T16:15:00",
+    "end": "2026-08-13T16:30:00",
+    "pivot_hosts": [
+      "10.0.3.100",
+      "10.0.3.191",
+      "10.0.3.251"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.253.24"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user005-20260814T1545",
+    "user": "user005",
+    "start": "2026-08-14T15:45:00",
+    "end": "2026-08-14T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.194",
+      "10.0.2.59",
+      "10.0.3.114"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.50.88"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user007-20260811T1330",
+    "user": "user007",
+    "start": "2026-08-11T13:30:00",
+    "end": "2026-08-11T13:45:00",
+    "pivot_hosts": [
+      "10.0.2.33",
+      "10.0.3.210",
+      "10.0.3.46"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.167.206"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user007-20260812T1245",
+    "user": "user007",
+    "start": "2026-08-12T12:45:00",
+    "end": "2026-08-12T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.219",
+      "10.0.1.35",
+      "10.0.3.247"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.154.55"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user007-20260813T1130",
+    "user": "user007",
+    "start": "2026-08-13T11:30:00",
+    "end": "2026-08-13T11:45:00",
+    "pivot_hosts": [
+      "10.0.1.191",
+      "10.0.1.87",
+      "10.0.3.243"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.43.177"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user010-20260810T1215",
+    "user": "user010",
+    "start": "2026-08-10T12:15:00",
+    "end": "2026-08-10T12:30:00",
+    "pivot_hosts": [
+      "10.0.1.182",
+      "10.0.1.185",
+      "10.0.2.249"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.170.191"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user012-20260811T1700",
+    "user": "user012",
+    "start": "2026-08-11T17:00:00",
+    "end": "2026-08-11T17:15:00",
+    "pivot_hosts": [
+      "10.0.1.113",
+      "10.0.1.176",
+      "10.0.3.242"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.195.206"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user018-20260813T1000",
+    "user": "user018",
+    "start": "2026-08-13T10:00:00",
+    "end": "2026-08-13T10:15:00",
+    "pivot_hosts": [
+      "10.0.1.184",
+      "10.0.2.214",
+      "10.0.3.120"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.32.226"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user018-20260814T1145",
+    "user": "user018",
+    "start": "2026-08-14T11:45:00",
+    "end": "2026-08-14T12:00:00",
+    "pivot_hosts": [
+      "10.0.1.145",
+      "10.0.2.228",
+      "10.0.2.93"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.136.144"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user025-20260812T1645",
+    "user": "user025",
+    "start": "2026-08-12T16:45:00",
+    "end": "2026-08-12T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.154",
+      "10.0.3.201",
+      "10.0.3.237"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.244.122"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user032-20260813T1645",
+    "user": "user032",
+    "start": "2026-08-13T16:45:00",
+    "end": "2026-08-13T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.170",
+      "10.0.1.75",
+      "10.0.2.73"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.76.206"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user034-20260813T1200",
+    "user": "user034",
+    "start": "2026-08-13T12:00:00",
+    "end": "2026-08-13T12:15:00",
+    "pivot_hosts": [
+      "10.0.2.106",
+      "10.0.2.152",
+      "10.0.3.250"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.74.182"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user035-20260810T1200",
+    "user": "user035",
+    "start": "2026-08-10T12:00:00",
+    "end": "2026-08-10T12:15:00",
+    "pivot_hosts": [
+      "10.0.2.156",
+      "10.0.2.80",
+      "10.0.3.87"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.67.190"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user036-20260812T1500",
+    "user": "user036",
+    "start": "2026-08-12T15:00:00",
+    "end": "2026-08-12T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.224",
+      "10.0.2.21",
+      "10.0.3.239"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.182.0"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user037-20260814T1130",
+    "user": "user037",
+    "start": "2026-08-14T11:30:00",
+    "end": "2026-08-14T11:45:00",
+    "pivot_hosts": [
+      "10.0.1.215",
+      "10.0.1.52",
+      "10.0.3.116"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.17.74"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user040-20260810T1545",
+    "user": "user040",
+    "start": "2026-08-10T15:45:00",
+    "end": "2026-08-10T16:00:00",
+    "pivot_hosts": [
+      "10.0.2.109",
+      "10.0.2.186",
+      "10.0.3.228"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.77.243"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user041-20260810T1430",
+    "user": "user041",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.3.153",
+      "10.0.3.56",
+      "10.0.3.63"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.165.247"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user049-20260814T1430",
+    "user": "user049",
+    "start": "2026-08-14T14:30:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.223",
+      "10.0.2.59",
+      "10.0.3.77"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.58.245"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user054-20260811T1615",
+    "user": "user054",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.119",
+      "10.0.2.30",
+      "10.0.2.47"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [
+      "172.16.75.25"
+    ],
+    "smb_target_count": 1,
+    "off_hours_events": 0,
+    "risk_score": 32.0
+  },
+  {
+    "incident_id": "LM-user013-20260811T0815",
+    "user": "user013",
+    "start": "2026-08-11T08:15:00",
+    "end": "2026-08-11T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.233",
+      "10.0.2.108",
+      "10.0.2.168",
+      "10.0.2.4",
+      "10.0.3.102",
+      "10.0.3.16"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user016-20260814T1300",
+    "user": "user016",
+    "start": "2026-08-14T13:00:00",
+    "end": "2026-08-14T13:45:00",
+    "pivot_hosts": [
+      "10.0.1.29",
+      "10.0.2.118",
+      "10.0.2.198",
+      "10.0.2.217",
+      "10.0.2.33",
+      "10.0.2.97",
+      "10.0.3.142",
+      "10.0.3.165"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user025-20260812T1530",
+    "user": "user025",
+    "start": "2026-08-12T15:30:00",
+    "end": "2026-08-12T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.191",
+      "10.0.1.65",
+      "10.0.1.97",
+      "10.0.2.115",
+      "10.0.2.146",
+      "10.0.2.181",
+      "10.0.2.193",
+      "10.0.2.72"
+    ],
+    "duration_min": 45,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user035-20260813T1430",
+    "user": "user035",
+    "start": "2026-08-13T14:30:00",
+    "end": "2026-08-13T15:00:00",
+    "pivot_hosts": [
+      "10.0.2.204",
+      "10.0.2.31",
+      "10.0.2.61",
+      "10.0.2.97",
+      "10.0.3.180",
+      "10.0.3.190"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user050-20260814T1530",
+    "user": "user050",
+    "start": "2026-08-14T15:30:00",
+    "end": "2026-08-14T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.220",
+      "10.0.2.176",
+      "10.0.2.53",
+      "10.0.2.67",
+      "10.0.3.56",
+      "10.0.3.98"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user053-20260810T1600",
+    "user": "user053",
+    "start": "2026-08-10T16:00:00",
+    "end": "2026-08-10T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.148",
+      "10.0.2.20",
+      "10.0.3.111",
+      "10.0.3.179",
+      "10.0.3.9",
+      "10.0.3.99"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user058-20260813T1430",
+    "user": "user058",
+    "start": "2026-08-13T14:30:00",
+    "end": "2026-08-13T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.124",
+      "10.0.1.196",
+      "10.0.3.165",
+      "10.0.3.19",
+      "10.0.3.244",
+      "10.0.3.254"
+    ],
+    "duration_min": 30,
+    "windows_in_chain": 2,
+    "total_logins": 6,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 29.0
+  },
+  {
+    "incident_id": "LM-user002-20260811T1400",
+    "user": "user002",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.3.12",
+      "10.0.3.149",
+      "10.0.3.209",
+      "10.0.3.25"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 3,
+    "avg_target_rate": 0.75,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 26.0
+  },
+  {
+    "incident_id": "LM-user010-20260810T1045",
+    "user": "user010",
+    "start": "2026-08-10T10:45:00",
+    "end": "2026-08-10T11:00:00",
+    "pivot_hosts": [
+      "10.0.1.221",
+      "10.0.1.53",
+      "10.0.2.90",
+      "10.0.3.218"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 3,
+    "avg_target_rate": 0.75,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 26.0
+  },
+  {
+    "incident_id": "LM-user021-20260812T1230",
+    "user": "user021",
+    "start": "2026-08-12T12:30:00",
+    "end": "2026-08-12T12:45:00",
+    "pivot_hosts": [
+      "10.0.1.195",
+      "10.0.1.6",
+      "10.0.2.48",
+      "10.0.3.202"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 4,
+    "max_fanout": 3,
+    "avg_target_rate": 0.75,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 26.0
+  },
+  {
+    "incident_id": "LM-user001-20260812T1515",
+    "user": "user001",
+    "start": "2026-08-12T15:15:00",
+    "end": "2026-08-12T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.94",
+      "10.0.2.232",
+      "10.0.2.68"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user001-20260813T0945",
+    "user": "user001",
+    "start": "2026-08-13T09:45:00",
+    "end": "2026-08-13T10:00:00",
+    "pivot_hosts": [
+      "10.0.1.210",
+      "10.0.1.93",
+      "10.0.2.240"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user001-20260813T1415",
+    "user": "user001",
+    "start": "2026-08-13T14:15:00",
+    "end": "2026-08-13T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.58",
+      "10.0.2.193",
+      "10.0.2.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user002-20260812T1500",
+    "user": "user002",
+    "start": "2026-08-12T15:00:00",
+    "end": "2026-08-12T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.114",
+      "10.0.1.77",
+      "10.0.2.101"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user002-20260814T1245",
+    "user": "user002",
+    "start": "2026-08-14T12:45:00",
+    "end": "2026-08-14T13:00:00",
+    "pivot_hosts": [
+      "10.0.2.110",
+      "10.0.2.59",
+      "10.0.3.151"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user002-20260814T1515",
+    "user": "user002",
+    "start": "2026-08-14T15:15:00",
+    "end": "2026-08-14T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.127",
+      "10.0.1.183",
+      "10.0.3.106"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user003-20260811T1515",
+    "user": "user003",
+    "start": "2026-08-11T15:15:00",
+    "end": "2026-08-11T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.152",
+      "10.0.3.117",
+      "10.0.3.232"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user004-20260813T1500",
+    "user": "user004",
+    "start": "2026-08-13T15:00:00",
+    "end": "2026-08-13T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.164",
+      "10.0.2.253",
+      "10.0.2.5"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user004-20260814T1645",
+    "user": "user004",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.134",
+      "10.0.1.69",
+      "10.0.2.170"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user005-20260811T1600",
+    "user": "user005",
+    "start": "2026-08-11T16:00:00",
+    "end": "2026-08-11T16:15:00",
+    "pivot_hosts": [
+      "10.0.2.137",
+      "10.0.2.140",
+      "10.0.3.98"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user005-20260812T1445",
+    "user": "user005",
+    "start": "2026-08-12T14:45:00",
+    "end": "2026-08-12T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.12",
+      "10.0.3.21",
+      "10.0.3.210"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user005-20260812T1545",
+    "user": "user005",
+    "start": "2026-08-12T15:45:00",
+    "end": "2026-08-12T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.201",
+      "10.0.2.240",
+      "10.0.3.27"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user005-20260813T1315",
+    "user": "user005",
+    "start": "2026-08-13T13:15:00",
+    "end": "2026-08-13T13:30:00",
+    "pivot_hosts": [
+      "10.0.1.107",
+      "10.0.1.117",
+      "10.0.2.192"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user005-20260816T1515",
+    "user": "user005",
+    "start": "2026-08-16T15:15:00",
+    "end": "2026-08-16T15:30:00",
+    "pivot_hosts": [
+      "10.0.2.245",
+      "10.0.3.142",
+      "10.0.3.188"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user006-20260814T1215",
+    "user": "user006",
+    "start": "2026-08-14T12:15:00",
+    "end": "2026-08-14T12:30:00",
+    "pivot_hosts": [
+      "10.0.1.124",
+      "10.0.1.192",
+      "10.0.1.236"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260810T0915",
+    "user": "user007",
+    "start": "2026-08-10T09:15:00",
+    "end": "2026-08-10T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.107",
+      "10.0.3.218",
+      "10.0.3.49"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260811T0915",
+    "user": "user007",
+    "start": "2026-08-11T09:15:00",
+    "end": "2026-08-11T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.209",
+      "10.0.2.16",
+      "10.0.2.58"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260811T1130",
+    "user": "user007",
+    "start": "2026-08-11T11:30:00",
+    "end": "2026-08-11T11:45:00",
+    "pivot_hosts": [
+      "10.0.1.124",
+      "10.0.2.84",
+      "10.0.3.121"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260811T1545",
+    "user": "user007",
+    "start": "2026-08-11T15:45:00",
+    "end": "2026-08-11T16:00:00",
+    "pivot_hosts": [
+      "10.0.2.17",
+      "10.0.2.64",
+      "10.0.3.80"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260813T1015",
+    "user": "user007",
+    "start": "2026-08-13T10:15:00",
+    "end": "2026-08-13T10:30:00",
+    "pivot_hosts": [
+      "10.0.1.252",
+      "10.0.2.176",
+      "10.0.2.224"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user007-20260814T1115",
+    "user": "user007",
+    "start": "2026-08-14T11:15:00",
+    "end": "2026-08-14T11:30:00",
+    "pivot_hosts": [
+      "10.0.2.120",
+      "10.0.2.196",
+      "10.0.2.212"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user008-20260810T0930",
+    "user": "user008",
+    "start": "2026-08-10T09:30:00",
+    "end": "2026-08-10T09:45:00",
+    "pivot_hosts": [
+      "10.0.1.72",
+      "10.0.2.186",
+      "10.0.2.220"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user008-20260812T1645",
+    "user": "user008",
+    "start": "2026-08-12T16:45:00",
+    "end": "2026-08-12T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.168",
+      "10.0.2.171",
+      "10.0.3.15"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user008-20260814T1200",
+    "user": "user008",
+    "start": "2026-08-14T12:00:00",
+    "end": "2026-08-14T12:15:00",
+    "pivot_hosts": [
+      "10.0.1.245",
+      "10.0.3.103",
+      "10.0.3.13"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user008-20260814T1600",
+    "user": "user008",
+    "start": "2026-08-14T16:00:00",
+    "end": "2026-08-14T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.14",
+      "10.0.1.250",
+      "10.0.2.94"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user009-20260810T0845",
+    "user": "user009",
+    "start": "2026-08-10T08:45:00",
+    "end": "2026-08-10T09:00:00",
+    "pivot_hosts": [
+      "10.0.3.161",
+      "10.0.3.223",
+      "10.0.3.70"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user009-20260810T1130",
+    "user": "user009",
+    "start": "2026-08-10T11:30:00",
+    "end": "2026-08-10T11:45:00",
+    "pivot_hosts": [
+      "10.0.1.186",
+      "10.0.1.36",
+      "10.0.3.238"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user009-20260812T1045",
+    "user": "user009",
+    "start": "2026-08-12T10:45:00",
+    "end": "2026-08-12T11:00:00",
+    "pivot_hosts": [
+      "10.0.2.157",
+      "10.0.3.100",
+      "10.0.3.228"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user009-20260813T1530",
+    "user": "user009",
+    "start": "2026-08-13T15:30:00",
+    "end": "2026-08-13T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.90",
+      "10.0.2.142",
+      "10.0.3.58"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user009-20260814T1645",
+    "user": "user009",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.221",
+      "10.0.3.142",
+      "10.0.3.44"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260810T1400",
+    "user": "user010",
+    "start": "2026-08-10T14:00:00",
+    "end": "2026-08-10T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.136",
+      "10.0.1.238",
+      "10.0.3.236"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260811T1115",
+    "user": "user010",
+    "start": "2026-08-11T11:15:00",
+    "end": "2026-08-11T11:30:00",
+    "pivot_hosts": [
+      "10.0.1.147",
+      "10.0.3.10",
+      "10.0.3.72"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260811T1315",
+    "user": "user010",
+    "start": "2026-08-11T13:15:00",
+    "end": "2026-08-11T13:30:00",
+    "pivot_hosts": [
+      "10.0.2.18",
+      "10.0.2.92",
+      "10.0.3.96"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260812T1430",
+    "user": "user010",
+    "start": "2026-08-12T14:30:00",
+    "end": "2026-08-12T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.210",
+      "10.0.3.212",
+      "10.0.3.246"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260813T1645",
+    "user": "user010",
+    "start": "2026-08-13T16:45:00",
+    "end": "2026-08-13T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.169",
+      "10.0.2.197",
+      "10.0.3.110"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user010-20260814T0845",
+    "user": "user010",
+    "start": "2026-08-14T08:45:00",
+    "end": "2026-08-14T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.230",
+      "10.0.1.94",
+      "10.0.2.190"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user011-20260814T1645",
+    "user": "user011",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.127",
+      "10.0.2.132",
+      "10.0.3.181"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user012-20260814T0945",
+    "user": "user012",
+    "start": "2026-08-14T09:45:00",
+    "end": "2026-08-14T10:00:00",
+    "pivot_hosts": [
+      "10.0.1.193",
+      "10.0.2.97",
+      "10.0.3.92"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user012-20260814T1345",
+    "user": "user012",
+    "start": "2026-08-14T13:45:00",
+    "end": "2026-08-14T14:00:00",
+    "pivot_hosts": [
+      "10.0.1.142",
+      "10.0.2.190",
+      "10.0.3.161"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user013-20260812T0900",
+    "user": "user013",
+    "start": "2026-08-12T09:00:00",
+    "end": "2026-08-12T09:15:00",
+    "pivot_hosts": [
+      "10.0.1.101",
+      "10.0.1.169",
+      "10.0.1.196"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user013-20260812T1445",
+    "user": "user013",
+    "start": "2026-08-12T14:45:00",
+    "end": "2026-08-12T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.138",
+      "10.0.1.54",
+      "10.0.2.86"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user013-20260814T1400",
+    "user": "user013",
+    "start": "2026-08-14T14:00:00",
+    "end": "2026-08-14T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.164",
+      "10.0.3.4",
+      "10.0.3.54"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user014-20260811T0945",
+    "user": "user014",
+    "start": "2026-08-11T09:45:00",
+    "end": "2026-08-11T10:00:00",
+    "pivot_hosts": [
+      "10.0.2.175",
+      "10.0.2.43",
+      "10.0.3.227"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user014-20260811T1515",
+    "user": "user014",
+    "start": "2026-08-11T15:15:00",
+    "end": "2026-08-11T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.156",
+      "10.0.2.114",
+      "10.0.3.193"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user014-20260811T1645",
+    "user": "user014",
+    "start": "2026-08-11T16:45:00",
+    "end": "2026-08-11T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.82",
+      "10.0.3.225",
+      "10.0.3.81"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user014-20260814T0800",
+    "user": "user014",
+    "start": "2026-08-14T08:00:00",
+    "end": "2026-08-14T08:15:00",
+    "pivot_hosts": [
+      "10.0.1.70",
+      "10.0.2.153",
+      "10.0.3.124"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user014-20260814T1330",
+    "user": "user014",
+    "start": "2026-08-14T13:30:00",
+    "end": "2026-08-14T13:45:00",
+    "pivot_hosts": [
+      "10.0.2.176",
+      "10.0.2.216",
+      "10.0.2.254"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user015-20260810T1415",
+    "user": "user015",
+    "start": "2026-08-10T14:15:00",
+    "end": "2026-08-10T14:30:00",
+    "pivot_hosts": [
+      "10.0.2.137",
+      "10.0.2.141",
+      "10.0.3.251"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user015-20260812T1745",
+    "user": "user015",
+    "start": "2026-08-12T17:45:00",
+    "end": "2026-08-12T18:00:00",
+    "pivot_hosts": [
+      "10.0.1.160",
+      "10.0.2.150",
+      "10.0.3.58"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user015-20260813T0915",
+    "user": "user015",
+    "start": "2026-08-13T09:15:00",
+    "end": "2026-08-13T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.122",
+      "10.0.1.84",
+      "10.0.3.220"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user015-20260813T1015",
+    "user": "user015",
+    "start": "2026-08-13T10:15:00",
+    "end": "2026-08-13T10:30:00",
+    "pivot_hosts": [
+      "10.0.1.172",
+      "10.0.2.183",
+      "10.0.3.240"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user015-20260814T1430",
+    "user": "user015",
+    "start": "2026-08-14T14:30:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.218",
+      "10.0.1.41",
+      "10.0.3.57"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user016-20260811T0845",
+    "user": "user016",
+    "start": "2026-08-11T08:45:00",
+    "end": "2026-08-11T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.120",
+      "10.0.1.5",
+      "10.0.3.236"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user016-20260811T1645",
+    "user": "user016",
+    "start": "2026-08-11T16:45:00",
+    "end": "2026-08-11T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.150",
+      "10.0.2.202",
+      "10.0.2.27"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user016-20260811T1730",
+    "user": "user016",
+    "start": "2026-08-11T17:30:00",
+    "end": "2026-08-11T17:45:00",
+    "pivot_hosts": [
+      "10.0.1.73",
+      "10.0.2.70",
+      "10.0.3.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user016-20260812T1630",
+    "user": "user016",
+    "start": "2026-08-12T16:30:00",
+    "end": "2026-08-12T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.226",
+      "10.0.1.227",
+      "10.0.2.129"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user016-20260816T1415",
+    "user": "user016",
+    "start": "2026-08-16T14:15:00",
+    "end": "2026-08-16T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.144",
+      "10.0.3.11",
+      "10.0.3.251"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260810T0830",
+    "user": "user017",
+    "start": "2026-08-10T08:30:00",
+    "end": "2026-08-10T08:45:00",
+    "pivot_hosts": [
+      "10.0.1.173",
+      "10.0.1.8",
+      "10.0.3.134"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260812T0930",
+    "user": "user017",
+    "start": "2026-08-12T09:30:00",
+    "end": "2026-08-12T09:45:00",
+    "pivot_hosts": [
+      "10.0.1.201",
+      "10.0.2.74",
+      "10.0.3.38"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260812T1200",
+    "user": "user017",
+    "start": "2026-08-12T12:00:00",
+    "end": "2026-08-12T12:15:00",
+    "pivot_hosts": [
+      "10.0.1.91",
+      "10.0.2.122",
+      "10.0.3.116"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260812T1545",
+    "user": "user017",
+    "start": "2026-08-12T15:45:00",
+    "end": "2026-08-12T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.50",
+      "10.0.2.230",
+      "10.0.3.72"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260813T1330",
+    "user": "user017",
+    "start": "2026-08-13T13:30:00",
+    "end": "2026-08-13T13:45:00",
+    "pivot_hosts": [
+      "10.0.2.240",
+      "10.0.3.172",
+      "10.0.3.91"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user017-20260814T1515",
+    "user": "user017",
+    "start": "2026-08-14T15:15:00",
+    "end": "2026-08-14T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.211",
+      "10.0.2.128",
+      "10.0.3.132"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user018-20260810T1430",
+    "user": "user018",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.99",
+      "10.0.3.223",
+      "10.0.3.84"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user018-20260811T1015",
+    "user": "user018",
+    "start": "2026-08-11T10:15:00",
+    "end": "2026-08-11T10:30:00",
+    "pivot_hosts": [
+      "10.0.1.22",
+      "10.0.2.50",
+      "10.0.3.246"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user018-20260814T1430",
+    "user": "user018",
+    "start": "2026-08-14T14:30:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.2.11",
+      "10.0.2.175",
+      "10.0.2.59"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user019-20260810T1530",
+    "user": "user019",
+    "start": "2026-08-10T15:30:00",
+    "end": "2026-08-10T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.71",
+      "10.0.3.111",
+      "10.0.3.14"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user019-20260811T0845",
+    "user": "user019",
+    "start": "2026-08-11T08:45:00",
+    "end": "2026-08-11T09:00:00",
+    "pivot_hosts": [
+      "10.0.3.170",
+      "10.0.3.2",
+      "10.0.3.236"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user019-20260811T1715",
+    "user": "user019",
+    "start": "2026-08-11T17:15:00",
+    "end": "2026-08-11T17:30:00",
+    "pivot_hosts": [
+      "10.0.1.224",
+      "10.0.3.119",
+      "10.0.3.72"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user019-20260813T1200",
+    "user": "user019",
+    "start": "2026-08-13T12:00:00",
+    "end": "2026-08-13T12:15:00",
+    "pivot_hosts": [
+      "10.0.2.125",
+      "10.0.2.248",
+      "10.0.3.192"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user019-20260813T1645",
+    "user": "user019",
+    "start": "2026-08-13T16:45:00",
+    "end": "2026-08-13T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.52",
+      "10.0.3.124",
+      "10.0.3.218"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260811T0830",
+    "user": "user020",
+    "start": "2026-08-11T08:30:00",
+    "end": "2026-08-11T08:45:00",
+    "pivot_hosts": [
+      "10.0.2.73",
+      "10.0.3.185",
+      "10.0.3.229"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260811T1530",
+    "user": "user020",
+    "start": "2026-08-11T15:30:00",
+    "end": "2026-08-11T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.138",
+      "10.0.2.77",
+      "10.0.2.87"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260811T1630",
+    "user": "user020",
+    "start": "2026-08-11T16:30:00",
+    "end": "2026-08-11T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.25",
+      "10.0.1.37",
+      "10.0.3.216"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260812T1245",
+    "user": "user020",
+    "start": "2026-08-12T12:45:00",
+    "end": "2026-08-12T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.13",
+      "10.0.2.161",
+      "10.0.3.227"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260813T1745",
+    "user": "user020",
+    "start": "2026-08-13T17:45:00",
+    "end": "2026-08-13T18:00:00",
+    "pivot_hosts": [
+      "10.0.1.229",
+      "10.0.2.189",
+      "10.0.3.119"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user020-20260814T1530",
+    "user": "user020",
+    "start": "2026-08-14T15:30:00",
+    "end": "2026-08-14T15:45:00",
+    "pivot_hosts": [
+      "10.0.2.197",
+      "10.0.2.22",
+      "10.0.2.9"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user021-20260811T1400",
+    "user": "user021",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.195",
+      "10.0.2.50",
+      "10.0.3.69"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user021-20260811T1615",
+    "user": "user021",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.177",
+      "10.0.1.84",
+      "10.0.2.105"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user021-20260814T1200",
+    "user": "user021",
+    "start": "2026-08-14T12:00:00",
+    "end": "2026-08-14T12:15:00",
+    "pivot_hosts": [
+      "10.0.1.109",
+      "10.0.2.161",
+      "10.0.2.84"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user021-20260814T1430",
+    "user": "user021",
+    "start": "2026-08-14T14:30:00",
+    "end": "2026-08-14T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.118",
+      "10.0.2.103",
+      "10.0.3.51"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user021-20260815T1645",
+    "user": "user021",
+    "start": "2026-08-15T16:45:00",
+    "end": "2026-08-15T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.189",
+      "10.0.2.44",
+      "10.0.2.75"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user022-20260810T1600",
+    "user": "user022",
+    "start": "2026-08-10T16:00:00",
+    "end": "2026-08-10T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.103",
+      "10.0.1.190",
+      "10.0.3.31"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user022-20260811T1415",
+    "user": "user022",
+    "start": "2026-08-11T14:15:00",
+    "end": "2026-08-11T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.228",
+      "10.0.2.19",
+      "10.0.3.60"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user022-20260813T1315",
+    "user": "user022",
+    "start": "2026-08-13T13:15:00",
+    "end": "2026-08-13T13:30:00",
+    "pivot_hosts": [
+      "10.0.1.219",
+      "10.0.2.190",
+      "10.0.3.200"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user023-20260811T1600",
+    "user": "user023",
+    "start": "2026-08-11T16:00:00",
+    "end": "2026-08-11T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.63",
+      "10.0.2.59",
+      "10.0.3.232"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user023-20260812T0930",
+    "user": "user023",
+    "start": "2026-08-12T09:30:00",
+    "end": "2026-08-12T09:45:00",
+    "pivot_hosts": [
+      "10.0.2.108",
+      "10.0.2.11",
+      "10.0.2.12"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user023-20260812T1330",
+    "user": "user023",
+    "start": "2026-08-12T13:30:00",
+    "end": "2026-08-12T13:45:00",
+    "pivot_hosts": [
+      "10.0.1.230",
+      "10.0.2.163",
+      "10.0.3.165"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user023-20260813T1445",
+    "user": "user023",
+    "start": "2026-08-13T14:45:00",
+    "end": "2026-08-13T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.3",
+      "10.0.1.81",
+      "10.0.2.226"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user023-20260814T1445",
+    "user": "user023",
+    "start": "2026-08-14T14:45:00",
+    "end": "2026-08-14T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.99",
+      "10.0.2.218",
+      "10.0.3.250"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user024-20260810T1430",
+    "user": "user024",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.117",
+      "10.0.2.38",
+      "10.0.2.57"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user024-20260810T1615",
+    "user": "user024",
+    "start": "2026-08-10T16:15:00",
+    "end": "2026-08-10T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.31",
+      "10.0.3.244",
+      "10.0.3.77"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user024-20260814T1700",
+    "user": "user024",
+    "start": "2026-08-14T17:00:00",
+    "end": "2026-08-14T17:15:00",
+    "pivot_hosts": [
+      "10.0.1.229",
+      "10.0.1.233",
+      "10.0.3.49"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user024-20260816T1600",
+    "user": "user024",
+    "start": "2026-08-16T16:00:00",
+    "end": "2026-08-16T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.108",
+      "10.0.1.30",
+      "10.0.2.69"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user025-20260810T1315",
+    "user": "user025",
+    "start": "2026-08-10T13:15:00",
+    "end": "2026-08-10T13:30:00",
+    "pivot_hosts": [
+      "10.0.1.149",
+      "10.0.1.171",
+      "10.0.2.50"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user025-20260814T1215",
+    "user": "user025",
+    "start": "2026-08-14T12:15:00",
+    "end": "2026-08-14T12:30:00",
+    "pivot_hosts": [
+      "10.0.1.144",
+      "10.0.1.35",
+      "10.0.3.207"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user026-20260811T1515",
+    "user": "user026",
+    "start": "2026-08-11T15:15:00",
+    "end": "2026-08-11T15:30:00",
+    "pivot_hosts": [
+      "10.0.2.161",
+      "10.0.2.69",
+      "10.0.3.52"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user026-20260811T1715",
+    "user": "user026",
+    "start": "2026-08-11T17:15:00",
+    "end": "2026-08-11T17:30:00",
+    "pivot_hosts": [
+      "10.0.1.47",
+      "10.0.2.219",
+      "10.0.2.23"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user027-20260810T1615",
+    "user": "user027",
+    "start": "2026-08-10T16:15:00",
+    "end": "2026-08-10T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.181",
+      "10.0.2.173",
+      "10.0.2.97"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user027-20260812T1245",
+    "user": "user027",
+    "start": "2026-08-12T12:45:00",
+    "end": "2026-08-12T13:00:00",
+    "pivot_hosts": [
+      "10.0.2.162",
+      "10.0.2.202",
+      "10.0.3.19"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user027-20260813T1200",
+    "user": "user027",
+    "start": "2026-08-13T12:00:00",
+    "end": "2026-08-13T12:15:00",
+    "pivot_hosts": [
+      "10.0.2.221",
+      "10.0.2.63",
+      "10.0.3.253"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user027-20260814T1000",
+    "user": "user027",
+    "start": "2026-08-14T10:00:00",
+    "end": "2026-08-14T10:15:00",
+    "pivot_hosts": [
+      "10.0.1.213",
+      "10.0.1.49",
+      "10.0.2.130"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user027-20260814T1245",
+    "user": "user027",
+    "start": "2026-08-14T12:45:00",
+    "end": "2026-08-14T13:00:00",
+    "pivot_hosts": [
+      "10.0.2.136",
+      "10.0.2.178",
+      "10.0.2.253"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user028-20260811T1445",
+    "user": "user028",
+    "start": "2026-08-11T14:45:00",
+    "end": "2026-08-11T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.125",
+      "10.0.1.26",
+      "10.0.2.145"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user028-20260813T0830",
+    "user": "user028",
+    "start": "2026-08-13T08:30:00",
+    "end": "2026-08-13T08:45:00",
+    "pivot_hosts": [
+      "10.0.2.123",
+      "10.0.2.136",
+      "10.0.3.19"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user028-20260813T1630",
+    "user": "user028",
+    "start": "2026-08-13T16:30:00",
+    "end": "2026-08-13T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.251",
+      "10.0.1.86",
+      "10.0.3.192"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user029-20260811T1615",
+    "user": "user029",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.254",
+      "10.0.3.231",
+      "10.0.3.48"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user029-20260812T1645",
+    "user": "user029",
+    "start": "2026-08-12T16:45:00",
+    "end": "2026-08-12T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.20",
+      "10.0.2.90",
+      "10.0.3.93"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user029-20260813T1345",
+    "user": "user029",
+    "start": "2026-08-13T13:45:00",
+    "end": "2026-08-13T14:00:00",
+    "pivot_hosts": [
+      "10.0.1.215",
+      "10.0.1.237",
+      "10.0.1.52"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user030-20260810T1300",
+    "user": "user030",
+    "start": "2026-08-10T13:00:00",
+    "end": "2026-08-10T13:15:00",
+    "pivot_hosts": [
+      "10.0.2.248",
+      "10.0.3.148",
+      "10.0.3.157"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user030-20260811T1630",
+    "user": "user030",
+    "start": "2026-08-11T16:30:00",
+    "end": "2026-08-11T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.157",
+      "10.0.2.181",
+      "10.0.3.240"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user030-20260814T1500",
+    "user": "user030",
+    "start": "2026-08-14T15:00:00",
+    "end": "2026-08-14T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.220",
+      "10.0.1.224",
+      "10.0.2.70"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260810T1130",
+    "user": "user031",
+    "start": "2026-08-10T11:30:00",
+    "end": "2026-08-10T11:45:00",
+    "pivot_hosts": [
+      "10.0.1.243",
+      "10.0.2.110",
+      "10.0.2.118"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260811T1000",
+    "user": "user031",
+    "start": "2026-08-11T10:00:00",
+    "end": "2026-08-11T10:15:00",
+    "pivot_hosts": [
+      "10.0.1.170",
+      "10.0.1.205",
+      "10.0.3.87"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260811T1500",
+    "user": "user031",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.153",
+      "10.0.2.79",
+      "10.0.3.7"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260812T1400",
+    "user": "user031",
+    "start": "2026-08-12T14:00:00",
+    "end": "2026-08-12T14:15:00",
+    "pivot_hosts": [
+      "10.0.2.114",
+      "10.0.2.129",
+      "10.0.2.191"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260813T1415",
+    "user": "user031",
+    "start": "2026-08-13T14:15:00",
+    "end": "2026-08-13T14:30:00",
+    "pivot_hosts": [
+      "10.0.2.239",
+      "10.0.3.15",
+      "10.0.3.180"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260814T1400",
+    "user": "user031",
+    "start": "2026-08-14T14:00:00",
+    "end": "2026-08-14T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.43",
+      "10.0.2.189",
+      "10.0.3.218"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260815T1400",
+    "user": "user031",
+    "start": "2026-08-15T14:00:00",
+    "end": "2026-08-15T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.106",
+      "10.0.1.77",
+      "10.0.3.178"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user031-20260815T1530",
+    "user": "user031",
+    "start": "2026-08-15T15:30:00",
+    "end": "2026-08-15T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.125",
+      "10.0.1.217",
+      "10.0.2.241"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user032-20260810T1330",
+    "user": "user032",
+    "start": "2026-08-10T13:30:00",
+    "end": "2026-08-10T13:45:00",
+    "pivot_hosts": [
+      "10.0.1.145",
+      "10.0.1.187",
+      "10.0.3.33"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user032-20260811T1730",
+    "user": "user032",
+    "start": "2026-08-11T17:30:00",
+    "end": "2026-08-11T17:45:00",
+    "pivot_hosts": [
+      "10.0.1.40",
+      "10.0.3.201",
+      "10.0.3.218"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user032-20260814T1630",
+    "user": "user032",
+    "start": "2026-08-14T16:30:00",
+    "end": "2026-08-14T16:45:00",
+    "pivot_hosts": [
+      "10.0.2.123",
+      "10.0.2.24",
+      "10.0.3.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user033-20260810T1230",
+    "user": "user033",
+    "start": "2026-08-10T12:30:00",
+    "end": "2026-08-10T12:45:00",
+    "pivot_hosts": [
+      "10.0.2.157",
+      "10.0.3.225",
+      "10.0.3.240"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user033-20260810T1445",
+    "user": "user033",
+    "start": "2026-08-10T14:45:00",
+    "end": "2026-08-10T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.225",
+      "10.0.2.63",
+      "10.0.3.231"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user033-20260812T0830",
+    "user": "user033",
+    "start": "2026-08-12T08:30:00",
+    "end": "2026-08-12T08:45:00",
+    "pivot_hosts": [
+      "10.0.1.91",
+      "10.0.2.142",
+      "10.0.2.225"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user033-20260812T1300",
+    "user": "user033",
+    "start": "2026-08-12T13:00:00",
+    "end": "2026-08-12T13:15:00",
+    "pivot_hosts": [
+      "10.0.2.156",
+      "10.0.3.67",
+      "10.0.3.92"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user033-20260816T1015",
+    "user": "user033",
+    "start": "2026-08-16T10:15:00",
+    "end": "2026-08-16T10:30:00",
+    "pivot_hosts": [
+      "10.0.1.33",
+      "10.0.1.69",
+      "10.0.2.95"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user034-20260810T0930",
+    "user": "user034",
+    "start": "2026-08-10T09:30:00",
+    "end": "2026-08-10T09:45:00",
+    "pivot_hosts": [
+      "10.0.2.158",
+      "10.0.2.206",
+      "10.0.2.229"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user034-20260810T1630",
+    "user": "user034",
+    "start": "2026-08-10T16:30:00",
+    "end": "2026-08-10T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.149",
+      "10.0.2.24",
+      "10.0.3.4"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user034-20260811T1400",
+    "user": "user034",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.23",
+      "10.0.1.54",
+      "10.0.2.85"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user034-20260814T1445",
+    "user": "user034",
+    "start": "2026-08-14T14:45:00",
+    "end": "2026-08-14T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.101",
+      "10.0.2.110",
+      "10.0.3.28"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user035-20260816T1400",
+    "user": "user035",
+    "start": "2026-08-16T14:00:00",
+    "end": "2026-08-16T14:15:00",
+    "pivot_hosts": [
+      "10.0.2.191",
+      "10.0.2.239",
+      "10.0.2.3"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user036-20260811T1500",
+    "user": "user036",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.133",
+      "10.0.2.123",
+      "10.0.2.47"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user036-20260813T1245",
+    "user": "user036",
+    "start": "2026-08-13T12:45:00",
+    "end": "2026-08-13T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.28",
+      "10.0.2.52",
+      "10.0.3.7"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user036-20260814T1630",
+    "user": "user036",
+    "start": "2026-08-14T16:30:00",
+    "end": "2026-08-14T16:45:00",
+    "pivot_hosts": [
+      "10.0.2.19",
+      "10.0.3.120",
+      "10.0.3.93"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user037-20260810T1030",
+    "user": "user037",
+    "start": "2026-08-10T10:30:00",
+    "end": "2026-08-10T10:45:00",
+    "pivot_hosts": [
+      "10.0.1.135",
+      "10.0.2.140",
+      "10.0.2.252"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user037-20260812T1315",
+    "user": "user037",
+    "start": "2026-08-12T13:15:00",
+    "end": "2026-08-12T13:30:00",
+    "pivot_hosts": [
+      "10.0.1.80",
+      "10.0.3.198",
+      "10.0.3.68"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user037-20260813T1430",
+    "user": "user037",
+    "start": "2026-08-13T14:30:00",
+    "end": "2026-08-13T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.212",
+      "10.0.3.131",
+      "10.0.3.142"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user037-20260814T1415",
+    "user": "user037",
+    "start": "2026-08-14T14:15:00",
+    "end": "2026-08-14T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.231",
+      "10.0.1.240",
+      "10.0.3.182"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260811T0930",
+    "user": "user038",
+    "start": "2026-08-11T09:30:00",
+    "end": "2026-08-11T09:45:00",
+    "pivot_hosts": [
+      "10.0.1.149",
+      "10.0.1.155",
+      "10.0.2.228"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260811T1400",
+    "user": "user038",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.26",
+      "10.0.2.230",
+      "10.0.3.187"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260812T1245",
+    "user": "user038",
+    "start": "2026-08-12T12:45:00",
+    "end": "2026-08-12T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.206",
+      "10.0.2.101",
+      "10.0.3.226"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260812T1615",
+    "user": "user038",
+    "start": "2026-08-12T16:15:00",
+    "end": "2026-08-12T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.199",
+      "10.0.2.103",
+      "10.0.2.202"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260813T0800",
+    "user": "user038",
+    "start": "2026-08-13T08:00:00",
+    "end": "2026-08-13T08:15:00",
+    "pivot_hosts": [
+      "10.0.1.40",
+      "10.0.2.252",
+      "10.0.3.215"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260813T1130",
+    "user": "user038",
+    "start": "2026-08-13T11:30:00",
+    "end": "2026-08-13T11:45:00",
+    "pivot_hosts": [
+      "10.0.2.114",
+      "10.0.2.60",
+      "10.0.3.48"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user038-20260814T1500",
+    "user": "user038",
+    "start": "2026-08-14T15:00:00",
+    "end": "2026-08-14T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.80",
+      "10.0.2.207",
+      "10.0.3.49"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user039-20260810T1245",
+    "user": "user039",
+    "start": "2026-08-10T12:45:00",
+    "end": "2026-08-10T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.134",
+      "10.0.3.120",
+      "10.0.3.186"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user039-20260812T0845",
+    "user": "user039",
+    "start": "2026-08-12T08:45:00",
+    "end": "2026-08-12T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.167",
+      "10.0.2.108",
+      "10.0.3.127"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user039-20260813T1045",
+    "user": "user039",
+    "start": "2026-08-13T10:45:00",
+    "end": "2026-08-13T11:00:00",
+    "pivot_hosts": [
+      "10.0.1.14",
+      "10.0.3.117",
+      "10.0.3.82"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user039-20260813T1415",
+    "user": "user039",
+    "start": "2026-08-13T14:15:00",
+    "end": "2026-08-13T14:30:00",
+    "pivot_hosts": [
+      "10.0.2.66",
+      "10.0.3.203",
+      "10.0.3.241"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user040-20260814T1000",
+    "user": "user040",
+    "start": "2026-08-14T10:00:00",
+    "end": "2026-08-14T10:15:00",
+    "pivot_hosts": [
+      "10.0.2.18",
+      "10.0.2.51",
+      "10.0.3.67"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user040-20260814T1415",
+    "user": "user040",
+    "start": "2026-08-14T14:15:00",
+    "end": "2026-08-14T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.179",
+      "10.0.1.93",
+      "10.0.3.86"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user041-20260811T1400",
+    "user": "user041",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.123",
+      "10.0.1.33",
+      "10.0.3.94"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user041-20260812T1615",
+    "user": "user041",
+    "start": "2026-08-12T16:15:00",
+    "end": "2026-08-12T16:30:00",
+    "pivot_hosts": [
+      "10.0.3.128",
+      "10.0.3.41",
+      "10.0.3.82"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user041-20260816T1545",
+    "user": "user041",
+    "start": "2026-08-16T15:45:00",
+    "end": "2026-08-16T16:00:00",
+    "pivot_hosts": [
+      "10.0.1.121",
+      "10.0.2.149",
+      "10.0.3.206"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260810T1515",
+    "user": "user042",
+    "start": "2026-08-10T15:15:00",
+    "end": "2026-08-10T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.129",
+      "10.0.2.124",
+      "10.0.2.52"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260811T1500",
+    "user": "user042",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.2.137",
+      "10.0.3.202",
+      "10.0.3.22"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260811T1645",
+    "user": "user042",
+    "start": "2026-08-11T16:45:00",
+    "end": "2026-08-11T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.123",
+      "10.0.2.188",
+      "10.0.3.104"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260812T1645",
+    "user": "user042",
+    "start": "2026-08-12T16:45:00",
+    "end": "2026-08-12T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.34",
+      "10.0.2.198",
+      "10.0.3.71"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260813T0915",
+    "user": "user042",
+    "start": "2026-08-13T09:15:00",
+    "end": "2026-08-13T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.245",
+      "10.0.3.31",
+      "10.0.3.52"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user042-20260815T1630",
+    "user": "user042",
+    "start": "2026-08-15T16:30:00",
+    "end": "2026-08-15T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.208",
+      "10.0.2.160",
+      "10.0.2.65"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260811T0915",
+    "user": "user043",
+    "start": "2026-08-11T09:15:00",
+    "end": "2026-08-11T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.86",
+      "10.0.2.14",
+      "10.0.3.60"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260811T1215",
+    "user": "user043",
+    "start": "2026-08-11T12:15:00",
+    "end": "2026-08-11T12:30:00",
+    "pivot_hosts": [
+      "10.0.1.167",
+      "10.0.2.91",
+      "10.0.3.48"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260811T1500",
+    "user": "user043",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.249",
+      "10.0.2.141",
+      "10.0.3.17"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260812T1430",
+    "user": "user043",
+    "start": "2026-08-12T14:30:00",
+    "end": "2026-08-12T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.236",
+      "10.0.2.98",
+      "10.0.3.184"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260813T1415",
+    "user": "user043",
+    "start": "2026-08-13T14:15:00",
+    "end": "2026-08-13T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.231",
+      "10.0.3.135",
+      "10.0.3.203"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user043-20260814T1615",
+    "user": "user043",
+    "start": "2026-08-14T16:15:00",
+    "end": "2026-08-14T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.249",
+      "10.0.3.109",
+      "10.0.3.17"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user044-20260810T1615",
+    "user": "user044",
+    "start": "2026-08-10T16:15:00",
+    "end": "2026-08-10T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.138",
+      "10.0.1.89",
+      "10.0.2.219"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user044-20260811T0915",
+    "user": "user044",
+    "start": "2026-08-11T09:15:00",
+    "end": "2026-08-11T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.169",
+      "10.0.1.209",
+      "10.0.2.220"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user044-20260811T1230",
+    "user": "user044",
+    "start": "2026-08-11T12:30:00",
+    "end": "2026-08-11T12:45:00",
+    "pivot_hosts": [
+      "10.0.1.178",
+      "10.0.1.75",
+      "10.0.3.181"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user044-20260812T1445",
+    "user": "user044",
+    "start": "2026-08-12T14:45:00",
+    "end": "2026-08-12T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.198",
+      "10.0.1.224",
+      "10.0.3.243"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user044-20260812T1745",
+    "user": "user044",
+    "start": "2026-08-12T17:45:00",
+    "end": "2026-08-12T18:00:00",
+    "pivot_hosts": [
+      "10.0.1.190",
+      "10.0.2.64",
+      "10.0.3.191"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user045-20260810T1230",
+    "user": "user045",
+    "start": "2026-08-10T12:30:00",
+    "end": "2026-08-10T12:45:00",
+    "pivot_hosts": [
+      "10.0.2.95",
+      "10.0.3.239",
+      "10.0.3.45"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user045-20260810T1530",
+    "user": "user045",
+    "start": "2026-08-10T15:30:00",
+    "end": "2026-08-10T15:45:00",
+    "pivot_hosts": [
+      "10.0.2.205",
+      "10.0.3.140",
+      "10.0.3.146"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user045-20260811T1615",
+    "user": "user045",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.14",
+      "10.0.2.241",
+      "10.0.3.56"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user045-20260813T1530",
+    "user": "user045",
+    "start": "2026-08-13T15:30:00",
+    "end": "2026-08-13T15:45:00",
+    "pivot_hosts": [
+      "10.0.2.250",
+      "10.0.3.246",
+      "10.0.3.6"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user046-20260814T0800",
+    "user": "user046",
+    "start": "2026-08-14T08:00:00",
+    "end": "2026-08-14T08:15:00",
+    "pivot_hosts": [
+      "10.0.3.110",
+      "10.0.3.118",
+      "10.0.3.173"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260810T1300",
+    "user": "user047",
+    "start": "2026-08-10T13:00:00",
+    "end": "2026-08-10T13:15:00",
+    "pivot_hosts": [
+      "10.0.1.85",
+      "10.0.1.92",
+      "10.0.2.95"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260810T1645",
+    "user": "user047",
+    "start": "2026-08-10T16:45:00",
+    "end": "2026-08-10T17:00:00",
+    "pivot_hosts": [
+      "10.0.2.100",
+      "10.0.2.169",
+      "10.0.2.223"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260811T1145",
+    "user": "user047",
+    "start": "2026-08-11T11:45:00",
+    "end": "2026-08-11T12:00:00",
+    "pivot_hosts": [
+      "10.0.1.27",
+      "10.0.2.2",
+      "10.0.2.222"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260811T1230",
+    "user": "user047",
+    "start": "2026-08-11T12:30:00",
+    "end": "2026-08-11T12:45:00",
+    "pivot_hosts": [
+      "10.0.1.137",
+      "10.0.1.153",
+      "10.0.3.33"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260812T1730",
+    "user": "user047",
+    "start": "2026-08-12T17:30:00",
+    "end": "2026-08-12T17:45:00",
+    "pivot_hosts": [
+      "10.0.1.39",
+      "10.0.2.228",
+      "10.0.3.33"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260814T1045",
+    "user": "user047",
+    "start": "2026-08-14T10:45:00",
+    "end": "2026-08-14T11:00:00",
+    "pivot_hosts": [
+      "10.0.1.175",
+      "10.0.2.190",
+      "10.0.3.129"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260814T1145",
+    "user": "user047",
+    "start": "2026-08-14T11:45:00",
+    "end": "2026-08-14T12:00:00",
+    "pivot_hosts": [
+      "10.0.3.156",
+      "10.0.3.62",
+      "10.0.3.7"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user047-20260814T1300",
+    "user": "user047",
+    "start": "2026-08-14T13:00:00",
+    "end": "2026-08-14T13:15:00",
+    "pivot_hosts": [
+      "10.0.1.204",
+      "10.0.1.236",
+      "10.0.2.234"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user048-20260811T1400",
+    "user": "user048",
+    "start": "2026-08-11T14:00:00",
+    "end": "2026-08-11T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.223",
+      "10.0.1.63",
+      "10.0.3.215"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user048-20260814T1645",
+    "user": "user048",
+    "start": "2026-08-14T16:45:00",
+    "end": "2026-08-14T17:00:00",
+    "pivot_hosts": [
+      "10.0.1.148",
+      "10.0.1.155",
+      "10.0.2.101"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user048-20260816T1615",
+    "user": "user048",
+    "start": "2026-08-16T16:15:00",
+    "end": "2026-08-16T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.27",
+      "10.0.2.61",
+      "10.0.3.221"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260810T1600",
+    "user": "user049",
+    "start": "2026-08-10T16:00:00",
+    "end": "2026-08-10T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.114",
+      "10.0.1.39",
+      "10.0.3.31"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260810T1730",
+    "user": "user049",
+    "start": "2026-08-10T17:30:00",
+    "end": "2026-08-10T17:45:00",
+    "pivot_hosts": [
+      "10.0.1.107",
+      "10.0.2.100",
+      "10.0.2.73"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260811T1615",
+    "user": "user049",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.185",
+      "10.0.1.205",
+      "10.0.3.169"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260812T0900",
+    "user": "user049",
+    "start": "2026-08-12T09:00:00",
+    "end": "2026-08-12T09:15:00",
+    "pivot_hosts": [
+      "10.0.1.225",
+      "10.0.3.145",
+      "10.0.3.216"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260812T1415",
+    "user": "user049",
+    "start": "2026-08-12T14:15:00",
+    "end": "2026-08-12T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.21",
+      "10.0.2.112",
+      "10.0.2.120"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260813T1415",
+    "user": "user049",
+    "start": "2026-08-13T14:15:00",
+    "end": "2026-08-13T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.172",
+      "10.0.2.185",
+      "10.0.3.184"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user049-20260816T0930",
+    "user": "user049",
+    "start": "2026-08-16T09:30:00",
+    "end": "2026-08-16T09:45:00",
+    "pivot_hosts": [
+      "10.0.1.223",
+      "10.0.2.197",
+      "10.0.2.63"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260811T1530",
+    "user": "user050",
+    "start": "2026-08-11T15:30:00",
+    "end": "2026-08-11T15:45:00",
+    "pivot_hosts": [
+      "10.0.2.11",
+      "10.0.2.228",
+      "10.0.3.191"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260812T1500",
+    "user": "user050",
+    "start": "2026-08-12T15:00:00",
+    "end": "2026-08-12T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.3",
+      "10.0.2.142",
+      "10.0.2.177"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260812T1615",
+    "user": "user050",
+    "start": "2026-08-12T16:15:00",
+    "end": "2026-08-12T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.252",
+      "10.0.2.134",
+      "10.0.3.101"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260813T1615",
+    "user": "user050",
+    "start": "2026-08-13T16:15:00",
+    "end": "2026-08-13T16:30:00",
+    "pivot_hosts": [
+      "10.0.2.158",
+      "10.0.3.148",
+      "10.0.3.230"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260814T1400",
+    "user": "user050",
+    "start": "2026-08-14T14:00:00",
+    "end": "2026-08-14T14:15:00",
+    "pivot_hosts": [
+      "10.0.1.190",
+      "10.0.3.175",
+      "10.0.3.87"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user050-20260814T1630",
+    "user": "user050",
+    "start": "2026-08-14T16:30:00",
+    "end": "2026-08-14T16:45:00",
+    "pivot_hosts": [
+      "10.0.1.181",
+      "10.0.2.124",
+      "10.0.2.229"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user051-20260810T1145",
+    "user": "user051",
+    "start": "2026-08-10T11:45:00",
+    "end": "2026-08-10T12:00:00",
+    "pivot_hosts": [
+      "10.0.2.100",
+      "10.0.3.119",
+      "10.0.3.144"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user051-20260811T0815",
+    "user": "user051",
+    "start": "2026-08-11T08:15:00",
+    "end": "2026-08-11T08:30:00",
+    "pivot_hosts": [
+      "10.0.1.219",
+      "10.0.1.47",
+      "10.0.3.245"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user051-20260812T1400",
+    "user": "user051",
+    "start": "2026-08-12T14:00:00",
+    "end": "2026-08-12T14:15:00",
+    "pivot_hosts": [
+      "10.0.3.122",
+      "10.0.3.161",
+      "10.0.3.248"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user051-20260813T1445",
+    "user": "user051",
+    "start": "2026-08-13T14:45:00",
+    "end": "2026-08-13T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.103",
+      "10.0.1.70",
+      "10.0.3.75"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user052-20260814T1445",
+    "user": "user052",
+    "start": "2026-08-14T14:45:00",
+    "end": "2026-08-14T15:00:00",
+    "pivot_hosts": [
+      "10.0.1.127",
+      "10.0.2.164",
+      "10.0.2.212"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user053-20260811T1500",
+    "user": "user053",
+    "start": "2026-08-11T15:00:00",
+    "end": "2026-08-11T15:15:00",
+    "pivot_hosts": [
+      "10.0.2.116",
+      "10.0.2.171",
+      "10.0.3.96"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user053-20260814T0915",
+    "user": "user053",
+    "start": "2026-08-14T09:15:00",
+    "end": "2026-08-14T09:30:00",
+    "pivot_hosts": [
+      "10.0.1.22",
+      "10.0.2.10",
+      "10.0.2.13"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user053-20260814T1000",
+    "user": "user053",
+    "start": "2026-08-14T10:00:00",
+    "end": "2026-08-14T10:15:00",
+    "pivot_hosts": [
+      "10.0.2.185",
+      "10.0.2.217",
+      "10.0.2.30"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user053-20260814T1045",
+    "user": "user053",
+    "start": "2026-08-14T10:45:00",
+    "end": "2026-08-14T11:00:00",
+    "pivot_hosts": [
+      "10.0.1.163",
+      "10.0.1.42",
+      "10.0.3.206"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user054-20260810T0845",
+    "user": "user054",
+    "start": "2026-08-10T08:45:00",
+    "end": "2026-08-10T09:00:00",
+    "pivot_hosts": [
+      "10.0.2.209",
+      "10.0.3.41",
+      "10.0.3.78"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user054-20260810T1430",
+    "user": "user054",
+    "start": "2026-08-10T14:30:00",
+    "end": "2026-08-10T14:45:00",
+    "pivot_hosts": [
+      "10.0.2.102",
+      "10.0.2.149",
+      "10.0.2.167"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user054-20260811T0945",
+    "user": "user054",
+    "start": "2026-08-11T09:45:00",
+    "end": "2026-08-11T10:00:00",
+    "pivot_hosts": [
+      "10.0.2.9",
+      "10.0.3.109",
+      "10.0.3.74"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user054-20260812T1745",
+    "user": "user054",
+    "start": "2026-08-12T17:45:00",
+    "end": "2026-08-12T18:00:00",
+    "pivot_hosts": [
+      "10.0.2.171",
+      "10.0.2.82",
+      "10.0.3.110"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user054-20260813T1145",
+    "user": "user054",
+    "start": "2026-08-13T11:45:00",
+    "end": "2026-08-13T12:00:00",
+    "pivot_hosts": [
+      "10.0.1.175",
+      "10.0.1.225",
+      "10.0.3.179"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260810T1500",
+    "user": "user055",
+    "start": "2026-08-10T15:00:00",
+    "end": "2026-08-10T15:15:00",
+    "pivot_hosts": [
+      "10.0.1.149",
+      "10.0.1.150",
+      "10.0.2.136"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260811T1515",
+    "user": "user055",
+    "start": "2026-08-11T15:15:00",
+    "end": "2026-08-11T15:30:00",
+    "pivot_hosts": [
+      "10.0.1.165",
+      "10.0.3.11",
+      "10.0.3.56"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260811T1615",
+    "user": "user055",
+    "start": "2026-08-11T16:15:00",
+    "end": "2026-08-11T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.197",
+      "10.0.1.229",
+      "10.0.2.72"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260812T0945",
+    "user": "user055",
+    "start": "2026-08-12T09:45:00",
+    "end": "2026-08-12T10:00:00",
+    "pivot_hosts": [
+      "10.0.1.112",
+      "10.0.2.253",
+      "10.0.3.91"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260812T1500",
+    "user": "user055",
+    "start": "2026-08-12T15:00:00",
+    "end": "2026-08-12T15:15:00",
+    "pivot_hosts": [
+      "10.0.2.254",
+      "10.0.3.199",
+      "10.0.3.83"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260812T1745",
+    "user": "user055",
+    "start": "2026-08-12T17:45:00",
+    "end": "2026-08-12T18:00:00",
+    "pivot_hosts": [
+      "10.0.2.127",
+      "10.0.2.178",
+      "10.0.3.14"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user055-20260814T1530",
+    "user": "user055",
+    "start": "2026-08-14T15:30:00",
+    "end": "2026-08-14T15:45:00",
+    "pivot_hosts": [
+      "10.0.1.13",
+      "10.0.2.110",
+      "10.0.2.170"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user056-20260811T1445",
+    "user": "user056",
+    "start": "2026-08-11T14:45:00",
+    "end": "2026-08-11T15:00:00",
+    "pivot_hosts": [
+      "10.0.2.185",
+      "10.0.2.231",
+      "10.0.2.64"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user056-20260814T0845",
+    "user": "user056",
+    "start": "2026-08-14T08:45:00",
+    "end": "2026-08-14T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.168",
+      "10.0.2.15",
+      "10.0.3.209"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user056-20260814T1600",
+    "user": "user056",
+    "start": "2026-08-14T16:00:00",
+    "end": "2026-08-14T16:15:00",
+    "pivot_hosts": [
+      "10.0.1.127",
+      "10.0.2.186",
+      "10.0.2.31"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user056-20260815T0815",
+    "user": "user056",
+    "start": "2026-08-15T08:15:00",
+    "end": "2026-08-15T08:30:00",
+    "pivot_hosts": [
+      "10.0.1.57",
+      "10.0.2.204",
+      "10.0.3.45"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user057-20260810T0800",
+    "user": "user057",
+    "start": "2026-08-10T08:00:00",
+    "end": "2026-08-10T08:15:00",
+    "pivot_hosts": [
+      "10.0.1.196",
+      "10.0.2.147",
+      "10.0.3.63"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user057-20260813T1345",
+    "user": "user057",
+    "start": "2026-08-13T13:45:00",
+    "end": "2026-08-13T14:00:00",
+    "pivot_hosts": [
+      "10.0.1.128",
+      "10.0.1.191",
+      "10.0.2.142"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user057-20260814T0845",
+    "user": "user057",
+    "start": "2026-08-14T08:45:00",
+    "end": "2026-08-14T09:00:00",
+    "pivot_hosts": [
+      "10.0.1.20",
+      "10.0.2.49",
+      "10.0.2.66"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user058-20260810T1000",
+    "user": "user058",
+    "start": "2026-08-10T10:00:00",
+    "end": "2026-08-10T10:15:00",
+    "pivot_hosts": [
+      "10.0.1.106",
+      "10.0.2.252",
+      "10.0.3.119"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user058-20260810T1045",
+    "user": "user058",
+    "start": "2026-08-10T10:45:00",
+    "end": "2026-08-10T11:00:00",
+    "pivot_hosts": [
+      "10.0.1.150",
+      "10.0.2.208",
+      "10.0.2.41"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user058-20260814T1415",
+    "user": "user058",
+    "start": "2026-08-14T14:15:00",
+    "end": "2026-08-14T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.131",
+      "10.0.2.241",
+      "10.0.3.142"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user059-20260812T1415",
+    "user": "user059",
+    "start": "2026-08-12T14:15:00",
+    "end": "2026-08-12T14:30:00",
+    "pivot_hosts": [
+      "10.0.1.241",
+      "10.0.2.208",
+      "10.0.2.214"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user059-20260813T1615",
+    "user": "user059",
+    "start": "2026-08-13T16:15:00",
+    "end": "2026-08-13T16:30:00",
+    "pivot_hosts": [
+      "10.0.1.104",
+      "10.0.1.37",
+      "10.0.2.74"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user059-20260814T0900",
+    "user": "user059",
+    "start": "2026-08-14T09:00:00",
+    "end": "2026-08-14T09:15:00",
+    "pivot_hosts": [
+      "10.0.1.109",
+      "10.0.2.190",
+      "10.0.3.204"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user059-20260814T1300",
+    "user": "user059",
+    "start": "2026-08-14T13:00:00",
+    "end": "2026-08-14T13:15:00",
+    "pivot_hosts": [
+      "10.0.2.202",
+      "10.0.2.23",
+      "10.0.2.70"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user060-20260810T1530",
+    "user": "user060",
+    "start": "2026-08-10T15:30:00",
+    "end": "2026-08-10T15:45:00",
+    "pivot_hosts": [
+      "10.0.3.176",
+      "10.0.3.249",
+      "10.0.3.8"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user060-20260811T0945",
+    "user": "user060",
+    "start": "2026-08-11T09:45:00",
+    "end": "2026-08-11T10:00:00",
+    "pivot_hosts": [
+      "10.0.1.224",
+      "10.0.2.22",
+      "10.0.3.224"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user060-20260812T1430",
+    "user": "user060",
+    "start": "2026-08-12T14:30:00",
+    "end": "2026-08-12T14:45:00",
+    "pivot_hosts": [
+      "10.0.1.13",
+      "10.0.3.218",
+      "10.0.3.33"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user060-20260814T1300",
+    "user": "user060",
+    "start": "2026-08-14T13:00:00",
+    "end": "2026-08-14T13:15:00",
+    "pivot_hosts": [
+      "10.0.1.222",
+      "10.0.1.65",
+      "10.0.2.63"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  },
+  {
+    "incident_id": "LM-user060-20260816T1245",
+    "user": "user060",
+    "start": "2026-08-16T12:45:00",
+    "end": "2026-08-16T13:00:00",
+    "pivot_hosts": [
+      "10.0.1.191",
+      "10.0.1.247",
+      "10.0.3.244"
+    ],
+    "duration_min": 15,
+    "windows_in_chain": 1,
+    "total_logins": 3,
+    "max_fanout": 3,
+    "avg_target_rate": 1.0,
+    "smb_targets": [],
+    "smb_target_count": 0,
+    "off_hours_events": 0,
+    "risk_score": 24.5
+  }
+]

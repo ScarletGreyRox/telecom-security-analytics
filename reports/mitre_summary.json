@@ -1,0 +1,28 @@
+{
+  "n_incidents": 200,
+  "unique_techniques_seen": 10,
+  "unique_tactics_seen": 4,
+  "technique_frequency": {
+    "T1071": 200,
+    "T1568": 200,
+    "T1571": 200,
+    "T1041": 200,
+    "T1071.004": 200,
+    "T1048.003": 200,
+    "T1568.002": 200,
+    "T1021.002": 28,
+    "T1078": 28,
+    "T1021.001": 28
+  },
+  "tactic_frequency": {
+    "Command and Control": 200,
+    "Exfiltration": 200,
+    "Lateral Movement": 28,
+    "Defense Evasion, Persistence": 28
+  },
+  "tactic_pair_frequency": {
+    "Command and Control + Exfiltration": 172,
+    "Command and Control + Defense Evasion, Persistence + Exfiltration + Lateral Movement": 28
+  },
+  "mean_techniques_per_incident": 7.42
+}

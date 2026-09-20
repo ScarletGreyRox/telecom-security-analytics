@@ -1,0 +1,48 @@
+{
+  "precision": 0.058759521218716,
+  "recall": 0.38848920863309355,
+  "f1": 0.10207939508506617,
+  "roc_auc": 0.6415834596675349,
+  "contamination": 0.05,
+  "n_windows": 18376,
+  "n_anomalies_flagged": 919,
+  "n_true_compromised": 139,
+  "precision_at_k": {
+    "top_10": {
+      "true_positives": 10,
+      "precision": 1.0,
+      "recall": 0.0719
+    },
+    "top_25": {
+      "true_positives": 25,
+      "precision": 1.0,
+      "recall": 0.1799
+    },
+    "top_50": {
+      "true_positives": 42,
+      "precision": 0.84,
+      "recall": 0.3022
+    },
+    "top_100": {
+      "true_positives": 47,
+      "precision": 0.47,
+      "recall": 0.3381
+    },
+    "top_200": {
+      "true_positives": 47,
+      "precision": 0.235,
+      "recall": 0.3381
+    },
+    "top_500": {
+      "true_positives": 52,
+      "precision": 0.104,
+      "recall": 0.3741
+    },
+    "top_919": {
+      "true_positives": 54,
+      "precision": 0.0588,
+      "recall": 0.3885
+    }
+  },
+  "random_baseline_precision": 0.0076
+}

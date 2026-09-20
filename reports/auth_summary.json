@@ -1,0 +1,15 @@
+{
+  "n_users": 60,
+  "n_windows": 8378,
+  "n_fanout_windows": 363,
+  "n_incidents": 340,
+  "n_high_risk": 8,
+  "top_incident_users": [
+    "user007",
+    "user006",
+    "user007",
+    "user007",
+    "user007"
+  ],
+  "max_risk_score": 79.0
+}

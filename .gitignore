@@ -1,0 +1,33 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (regenerate with run_pipeline.py)
+data/raw/*.csv
+data/processed/*.pkl
+
+# Trained model binaries (regenerate)
+models/*.pkl
+
+# Large intermediate reports
+reports/anomaly_scores.csv
+reports/auth_alerts.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# pytest
+.pytest_cache/
