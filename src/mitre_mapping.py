@@ -18,6 +18,12 @@ from __future__ import annotations
 import os
 import json
 from collections import Counter
+from pathlib import Path
+
+# Resolve paths relative to project root regardless of CWD
+_SRC_DIR = Path(__file__).resolve().parent
+ROOT = _SRC_DIR.parent
+REPORTS = ROOT / "reports"
 
 # ---------------------------------------------------------------------------
 # Static technique catalogue (subset of MITRE ATT&CK Enterprise)
@@ -104,7 +110,7 @@ def map_incident_to_techniques(incident: dict) -> list:
 # ===========================================================================
 # PIPELINE
 # ===========================================================================
-def load_enriched(path: str = "../reports/enriched_incidents.json") -> list:
+def load_enriched(path: str = str(REPORTS / "enriched_incidents.json")) -> list:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -159,7 +165,7 @@ def summarize(tagged: list) -> dict:
 
 
 def save_artifacts(tagged: list, summary: dict,
-                   report_dir: str = "../reports") -> None:
+                   report_dir: str = str(REPORTS)) -> None:
     os.makedirs(report_dir, exist_ok=True)
 
     inc_path = os.path.join(report_dir, "mitre_tagged_incidents.json")

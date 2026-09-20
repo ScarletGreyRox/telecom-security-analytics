@@ -20,15 +20,22 @@ import json
 import re
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+# Resolve paths relative to project root regardless of CWD
+_SRC_DIR = Path(__file__).resolve().parent
+ROOT = _SRC_DIR.parent
+REPORTS = ROOT / "reports"
+DATA = ROOT / "data"
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-IOC_PATH  = "../data/threat_intelligence/ioc_list.csv"
-PAT_PATH  = "../data/threat_intelligence/attack_patterns.csv"
-CORR_PATH = "../reports/correlated_incidents.json"
+IOC_PATH  = str(DATA / "threat_intelligence" / "ioc_list.csv")
+PAT_PATH  = str(DATA / "threat_intelligence" / "attack_patterns.csv")
+CORR_PATH = str(REPORTS / "correlated_incidents.json")
 SMB_PORTS = {445, 3389}
 TI_MAX_BONUS = 15.0     # max points added to composite score from TI
 
@@ -317,7 +324,7 @@ def summarize(enriched: list) -> dict:
 
 
 def save_artifacts(enriched: list, summary: dict,
-                   report_dir: str = "../reports") -> None:
+                   report_dir: str = str(REPORTS)) -> None:
     os.makedirs(report_dir, exist_ok=True)
 
     out_path = os.path.join(report_dir, "enriched_incidents.json")
@@ -344,8 +351,8 @@ def run_threat_intelligence() -> dict:
     print(f"  Incidents     : {len(incidents)}")
 
     print("\nLoading raw telemetry for enrichment lookup ...")
-    netflow = pd.read_csv("../data/raw/netflow.csv", parse_dates=["timestamp"])
-    dns     = pd.read_csv("../data/raw/dns.csv",     parse_dates=["timestamp"])
+    netflow = pd.read_csv(DATA / "raw" / "netflow.csv", parse_dates=["timestamp"])
+    dns     = pd.read_csv(DATA / "raw" / "dns.csv",     parse_dates=["timestamp"])
 
     print("\nEnriching incidents ...")
     enriched = enrich_incidents(incidents, iocs, patterns, netflow, dns)

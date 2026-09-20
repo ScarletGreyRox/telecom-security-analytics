@@ -26,6 +26,14 @@ import json
 import numpy as np
 import pandas as pd
 import joblib
+from pathlib import Path
+
+# Resolve paths relative to project root regardless of CWD
+_SRC_DIR = Path(__file__).resolve().parent
+ROOT = _SRC_DIR.parent
+REPORTS = ROOT / "reports"
+MODELS = ROOT / "models"
+DATA = ROOT / "data"
 
 # ---------------------------------------------------------------------------
 # Config
@@ -42,7 +50,7 @@ ESCALATION_BONUS = 15   # added when 2+ detectors fire in the same window
 # ===========================================================================
 # 1. LOADERS
 # ===========================================================================
-def load_anomaly_scores(path: str = "../reports/anomaly_scores.csv") -> pd.DataFrame:
+def load_anomaly_scores(path: str = str(REPORTS / "anomaly_scores.csv")) -> pd.DataFrame:
     """Load Isolation Forest per-window scores."""
     df = pd.read_csv(path, parse_dates=["window_start"])
     df["entity"]      = df["entity"].astype(str)
@@ -53,14 +61,14 @@ def load_anomaly_scores(path: str = "../reports/anomaly_scores.csv") -> pd.DataF
     return df
 
 
-def load_lateral_incidents(path: str = "../reports/lateral_incidents.json") -> list:
+def load_lateral_incidents(path: str = str(REPORTS / "lateral_incidents.json")) -> list:
     """Load auth lateral-movement incidents."""
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def score_dns_per_window(dns: pd.DataFrame,
-                         model_path: str = "../models/dns_rf.pkl",
+                         model_path: str = str(MODELS / "dns_rf.pkl"),
                          window: str = WINDOW) -> pd.DataFrame:
     """
     Re-score DNS queries with the trained Random Forest and aggregate
@@ -349,7 +357,7 @@ def run_correlation() -> dict:
     lateral = load_lateral_incidents()
     print(f"  Lateral incidents   : {len(lateral):,}")
 
-    dns_raw = pd.read_csv("../data/raw/dns.csv", parse_dates=["timestamp"])
+    dns_raw = pd.read_csv(DATA / "raw" / "dns.csv", parse_dates=["timestamp"])
     dns_scores = score_dns_per_window(dns_raw)
     print(f"  DNS scored windows  : {len(dns_scores):,}")
 
