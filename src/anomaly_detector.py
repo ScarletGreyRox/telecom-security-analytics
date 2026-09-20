@@ -57,6 +57,23 @@ BEACON_FEATURES = [
 ]
 
 
+def compute_precision_at_k(results, ks=(10, 25, 50, 100, 200, 500)):
+    """
+    Compute Precision@K and Recall@K from the anomaly scores table.
+    """
+    sorted_df = results.sort_values("anomaly_score", ascending=False)
+    total_comp = int(sorted_df["is_compromised_host"].sum())
+    out = {}
+    for k in ks:
+        top = sorted_df.head(k)
+        tp = int(top["is_compromised_host"].sum())
+        out["top_" + str(k)] = {
+            "true_positives": tp,
+            "precision": round(tp / k, 4),
+            "recall": round(tp / total_comp, 4) if total_comp else 0,
+        }
+    return out, total_comp
+
 def _prepare_matrix(feats: pd.DataFrame,
                     per_host_normalise: bool = True) -> pd.DataFrame:
     """
@@ -190,6 +207,12 @@ def train_isolation_forest(feats: pd.DataFrame,
               f"score={r['anomaly_score']:>7.3f}  "
               f"{r['entity']:<22}  "
               f"{r['window_start']}{marker}")
+
+    # Augment metrics with Precision@K
+    prec_at_k, total_comp = compute_precision_at_k(results)
+    metrics["precision_at_k"] = prec_at_k
+    metrics["random_baseline_precision"] = round(
+        total_comp / len(results), 4) if len(results) else 0
 
     return {
         "model": iso,
