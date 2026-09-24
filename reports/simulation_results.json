@@ -1,0 +1,102 @@
+{
+  "baseline": {
+    "configuration": "baseline_full_pipeline",
+    "description": "All detectors + correlation + threat-intelligence enrichment",
+    "incident_counts": {
+      "total": 200,
+      "c2_anomaly": 200,
+      "dns_classifier": 200,
+      "auth_lateral": 28,
+      "multi_detector": 200,
+      "with_ioc": 55
+    },
+    "precision_at_k": {
+      "top_10": {
+        "true_positives": 10,
+        "precision": 1.0,
+        "recall": 0.0719
+      },
+      "top_25": {
+        "true_positives": 25,
+        "precision": 1.0,
+        "recall": 0.1799
+      },
+      "top_50": {
+        "true_positives": 42,
+        "precision": 0.84,
+        "recall": 0.3022
+      },
+      "top_100": {
+        "true_positives": 47,
+        "precision": 0.47,
+        "recall": 0.3381
+      }
+    },
+    "max_composite_score": 104.6,
+    "max_final_score": 117.4
+  },
+  "alternative_1_c2_only": {
+    "configuration": "c2_only_no_correlation",
+    "description": "Only Isolation Forest - no DNS classifier, no auth, no TI enrichment",
+    "n_alerts": 919,
+    "precision_at_k": {
+      "top_10": {
+        "true_positives": 10,
+        "precision": 1.0,
+        "recall": 0.0719
+      },
+      "top_25": {
+        "true_positives": 25,
+        "precision": 1.0,
+        "recall": 0.1799
+      },
+      "top_50": {
+        "true_positives": 42,
+        "precision": 0.84,
+        "recall": 0.3022
+      },
+      "top_100": {
+        "true_positives": 47,
+        "precision": 0.47,
+        "recall": 0.3381
+      }
+    },
+    "detects": {
+      "c2_beacon": true,
+      "dns_tunnel": false,
+      "lateral_movement": false
+    }
+  },
+  "alternative_2_auth_only": {
+    "configuration": "auth_only_no_ml",
+    "description": "Only the authentication fan-out rule - no ML detectors, no correlation",
+    "n_incidents": 340,
+    "user007_in_top3": 2,
+    "user007_in_top10": 7,
+    "detects": {
+      "c2_beacon": false,
+      "dns_tunnel": false,
+      "lateral_movement": true
+    }
+  },
+  "comparison": {
+    "detection_coverage": {
+      "c2_beacon": {
+        "baseline": true,
+        "alt1": true,
+        "alt2": false
+      },
+      "dns_tunnel": {
+        "baseline": true,
+        "alt1": false,
+        "alt2": false
+      },
+      "lateral_movement": {
+        "baseline": true,
+        "alt1": false,
+        "alt2": true
+      }
+    },
+    "interpretation": "No single-detector variant covers all three attack classes. The full pipeline is required for complete coverage - this is the core justification for the multi-source architecture."
+  }
+}

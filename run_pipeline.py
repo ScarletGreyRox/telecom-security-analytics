@@ -37,7 +37,8 @@ sys.path.insert(0, str(SRC))
 # Stage definitions
 # ---------------------------------------------------------------------------
 STAGES = ["data", "features", "dns", "anomaly", "auth",
-          "correlation", "threat_intel", "mitre"]
+          "correlation", "threat_intel", "mitre",
+          "experiments", "response"]
 
 
 def _banner(msg: str) -> None:
@@ -131,6 +132,20 @@ def stage_mitre():
     mm.run_mitre_mapping()
 
 
+def stage_experiments():
+    _banner("STAGE 9/10  —  Post-milestone experiments")
+    import experiments
+    experiments.run_all()
+
+
+def stage_response():
+    _banner("STAGE 10/10  —  Response playbook + executive brief")
+    import response_and_brief
+    response_and_brief.run_all()
+
+
+
+
 STAGE_FUNCS = {
     "data":        stage_data,
     "features":    stage_features,
@@ -140,6 +155,8 @@ STAGE_FUNCS = {
     "correlation": stage_correlation,
     "threat_intel": stage_threat_intel,
     "mitre":       stage_mitre,
+    "experiments": stage_experiments,
+    "response":    stage_response,
 }
 
 
